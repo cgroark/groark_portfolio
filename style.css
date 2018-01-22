@@ -1,0 +1,57 @@
+h1{
+	color: rgb(244, 142, 125);
+	font-family: 'Julius Sans One', sans-serif;
+}
+h2{
+	color: rgb(17,154,158);
+	font-family: 'Monoton', cursive;
+}
+h2.header_contact{
+	color: rgb(30,30,30);
+	font-family: 'Monoton', cursive;
+
+}
+h3{
+	color: rgb(116, 116, 116);
+	font-family: 'Poppins', sans-serif;
+}
+h3.header_top{
+	color: rgb(30,30,30);
+	font-family: 'Poppins', sans-serif;
+}
+
+h4{
+	color: rgb(100, 46, 85);
+	font-family: 'Glegoo', serif;
+
+}
+
+p{
+	font-family: 'Glegoo', serif;
+
+}
+
+#headshot{
+	height: 200px;
+	width: auto;
+}
+
+.contact-image{
+	height: 80px;
+	width: auto;
+}
+
+.contact{
+	height: 80px;
+	text-align: center;
+}
+
+.project-image{
+	height: 220px;
+	width: auto;
+	padding-left: 10px;
+}
+
+.projects{
+	text-align: center;
+}
