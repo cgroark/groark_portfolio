@@ -1,3 +1,6 @@
+.parallax-container{
+	height: 500px;
+}
 h1{
 	color: rgb(244, 142, 125);
 	font-family: 'Julius Sans One', sans-serif;
@@ -6,18 +9,18 @@ h2{
 	color: rgb(17,154,158);
 	font-family: 'Monoton', cursive;
 }
-h2.header_contact{
+h2.header_black{
 	color: rgb(30,30,30);
 	font-family: 'Monoton', cursive;
 
 }
 h3{
 	color: rgb(116, 116, 116);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Glegoo', serif;
 }
 h3.header_top{
 	color: rgb(30,30,30);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Glegoo', serif;
 }
 
 h4{
@@ -31,6 +34,34 @@ p{
 
 }
 
+/*about section
+*/
+
+#about_header{
+}
+
+#about_text{
+	margin-top: -6px;
+}
+h4.skills{
+	color: rgb(100, 46, 85);
+	font-family: 'Glegoo', serif;
+	font-size: 42px;
+	margin-bottom: -12px;
+}
+
+#skills_header{
+	padding-top: 50px;
+}
+
+.skill_box{
+	background-color: rgba(116,116,116,.6);
+	height: 220px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 16px;
+	letter-spacing: 4px
+}
 #headshot{
 	height: 200px;
 	width: auto;
