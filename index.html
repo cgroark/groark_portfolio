@@ -5,7 +5,7 @@
 	<title>Portfolio</title>
 	<style href="style.css" type="text/css"></style>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Glegoo|Julius+Sans+One|Monoton|Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Jura|Orbitron|Permanent+Marker|Raleway|Righteous|Bangers " rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 <body>
@@ -13,11 +13,11 @@
 	    <div class="nav-wrapper">
 	     	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      		<ul class="right hide-on-med-and-down">
-			        <li><a href="#about_header">About</a></li>
-			        <li><a href="#projects_header">Projects</a></li>
-			        <li><a href="#experience_header">Experience</a></li>
-			        <li><a href="#contact_header">Contact</a></li>
-			       	<li><a href="https://resume.creddle.io/" target="blank">Resume</a></li>
+			        <li><a class="nav-header" href="#about_header">About</a></li>
+			        <li><a class="nav-header" href="#projects_header">Projects</a></li>
+			        <li><a class="nav-header" href="#experience_header">Experience</a></li>
+			        <li><a class="nav-header" class="nav-header" href="#contact_header">Contact</a></li>
+			       	<li><a class="nav-header" href="https://resume.creddle.io/" target="blank">Resume</a></li>
 
 	      		</ul>
 			     <ul class="side-nav" id="mobile-demo">
@@ -31,12 +31,12 @@
 	<div class="parallax-container">
     	<div class="parallax img1"><img src="images/dune2bw.jpg" alt="sand">
     	</div>
-    	<h1>Colin Groark</h1>
-    	<h3 class="header_top">Full Stack Web Developer</h3>
+    	<h1 id="main-header">Colin Groark</h1>
+    	<h3 class="secondary-header">Full Stack Web Developer</h3>
   	</div>
   	<div class="section about">
    		<div class="row container">
-      		<h2 class="header" id="about_header">about</h2>
+      		<h2 class="section-header">about</h2>
       		<div class="row">
       				<div class="col s8">
       					<p id="about_text">I’m a full-stack web developer with experience untangling problems and developing efficient systems and tools for programs and teams in the private and non-profit sectors. Having consistently taken on roles in which I saw the immediate need to redesign or create new systems to manage information,  I’ve shifted to a career that allows me draw on that experience and build elegant tools everyday that improve how people interact with the world around them.  Whether it’s building full-stack applications, or designing budget tracking systems, I look for opportunities to break-down complex problems and create tools rooted in efficiency and usability. I want to collaborate with a driven team to craft innovative tools that offer a host of solutions to the complexities of everyday life.</p>
@@ -47,7 +47,7 @@
       		</div>
 	      	<div class="row">
               <div class="col s3">
-                <h2 id="skills_header" class="header_black">skills</h3>
+                <h2 class="header_black" id="skills-header">skills</h2>
               </div>
               <div class="col s4 skill_box">
 		      			<h4 class="skills">front-end</h4>
@@ -82,11 +82,11 @@
  	<div class="section projects">
     <div class="row container">
    	  <div class="col s12">
-      	<h2 class="header" id="projects_header">projects</h2>
+      	<h2 class="section-header">projects</h2>
       </div>
           <div class="row">
             <div class="col s6">
-              <a href="https://cgroark.github.io/game-waste/" target="blank"><h3 class="header">Sort It Game</h3></a>
+              <a href="https://cgroark.github.io/game-waste/" target="blank"><h3 class="project_header">Sort It Game</h3></a>
             </div>
           </div>
       			<div class="row">
@@ -95,14 +95,14 @@
               </div>
               <div class="col s6">
       				  <p>Front-end drag and drop educational game built using JavaScript, JQuery, CSS, CSS Animate, and HTML</p>
-                <a href="https://cgroark.github.io/game-waste/">Link to Game</a><br>
-                <a href="https://github.com/cgroark/game-waste">Link to Code on Github</a>
+                <a href="https://cgroark.github.io/game-waste/" target="blank">Link to Game</a><br>
+                <a href="https://github.com/cgroark/game-waste" target="blank">Link to Code on Github</a>
               </div>
           </div>
           <hr>
           <div class="row">
             <div class="col s6">
-              <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank"><h3 class="header">Get Out There</h3></a>
+              <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank"><h3 class="project_header">Get Out There</h3></a>
             </div>
           </div>
             <div class="row">
@@ -110,15 +110,18 @@
                 <img class="project-image" src="images/getout1.png">
               </div>
               <div class="col s6">
-                <p>Full-stack web application built with JavaScript, JQuery, PostreSQL, CSS, HTML</p>
-                <a href="https://get-out-there-parksweather.herokuapp.com/">Link to Game</a><br>
-                <a href="https://github.com/cgroark/project2">Link to Code on Github</a>
+                <p>Full-stack Node.js Express web application accessing data from three APIs. 
+                <p>Search for National Parks by state, save your favorite parks, see location via Google Maps and real-time weather forecast from Weather Underground API</p>
+                <p>Technologies:  JavaScript,  JQuery, Node.JS, Express, PostreSQL, National Park Service API, Google Maps API, Weather Underground API, CSS, HTML. Deployed on Heroku.</p>
+                <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank">Link to Website</a><br>
+                <p>login credentials: email - sample@testing.com; password: sample</p>
+                <a href="https://github.com/cgroark/project2" target="blank">Link to Code on Github</a>
               </div>
           </div>
             <hr>
            <div class="row">
             <div class="col s6">
-              <a href="#" target="blank"><h3 class="header">TBD</h3></a>
+              <a href="#" target="blank"><h3 class="project_header">TBD</h3></a>
             </div>
           </div>
             <div class="row">
@@ -127,8 +130,8 @@
               </div>
               <div class="col s6">
                 <p>final project description final project descriptions</p>
-                <a href="#">Link to Game</a><br>
-                <a href="#">Link to Code on Github</a>
+                <a href="#" target="blank">Link to Game</a><br>
+                <a href="#" target="blank">Link to Code on Github</a>
               </div>
           </div>      
  		 </div>
@@ -139,20 +142,25 @@
  	<div class="section experience">
    			<div class="row container">
    				<div class="col s12">
-      				<h2 class="header" id="experience_header">experience</h2>
+      				<h2 class="section-header" >experience</h2>
       			</div>
       			<div class="row">
       				<div class="col s4">
-      					<h3 class="header">web development</h3>
-      					<p>hipster impsum hipster imsum bill murray hipster imspum hipster ipsum</p>
+      					<h3 class="exp_header">web development</h3>
+      					<p>General Assembly. Team work to make the dream work</p>
       				</div>
       				<div class="col s4">
-		      			<h3 class="header">project management</h3>
-		      				<p>ipster impsum hipster imsum bill murray hipster imspum hipster ipsum</p>
+		      			<h3 class="exp_header">project management</h3>
+                <h6>Tilth Alliance</h6>
+                <h7>Director, Community Education</h7>
+		      				<p>Oversaw program portfolio, managed $900K budget, led $500K annual program for Seattle Public Utiliies, and oversaw team of 11 managers and coordinators</p>
 		      		</div>
 		      		<div class="col s4">
-		      			<h3 class="header">business development</h3>
-		      				<p>lipster impsum hipster imsum bill murray hipster imspum hipster ipsum<</p>
+		      			<h3 class="exp_header">business development</h3>
+		      				<h6>Tilth Alliance</h6>
+                  <p>Led strategy and proposal writing for multiple ocal and federal environmental grant awards</p>
+                  <h6>EnviroIssues</h6>
+                  <p>Led proposal coordination and delivery to secure more than 100 local, state and federal contracts for outreach consulting firm</p>
 		      		</div>
    			 	</div>
  		 </div>

@@ -1,70 +1,102 @@
-.parallax-container{
-	height: 500px;
+
+.nav-wrapper{
+	background-color: #6AA9AD;
 }
-h1{
-	color: rgb(244, 142, 125);
-	font-family: 'Julius Sans One', sans-serif;
+
+.nav-header{
+	color: rgb(50,50,50);
+	font-family: 'Jura', sans-serif;
+	font-size: 22px;
+	letter-spacing: 2px;
 }
-h2{
-	color: rgb(17,154,158);
-	font-family: 'Monoton', cursive;
+
+#main-header{
+	color: rgb(20,20,20);
+	font-family: 'Jura', sans-serif;
+	font-size: 102px;
+	font-weight: 900;
 }
-h2.header_black{
+
+.secondary-header{
+	color: rgb(50,50,50);
+	font-weight: 800;
+	font-size: 48px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.section-header{
+	color: #6AA9AD;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
+
+.header_black{
 	color: rgb(30,30,30);
-	font-family: 'Monoton', cursive;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 44px;
 
 }
-h3{
-	color: rgb(116, 116, 116);
-	font-family: 'Glegoo', serif;
-}
-h3.header_top{
-	color: rgb(30,30,30);
-	font-family: 'Glegoo', serif;
+.skills{
+	color: #F07A80;
+	font-family: 'Jura', sans-serif;
+	font-size: 38px;
+	font-weight: 800;
 }
 
-h4{
-	color: rgb(100, 46, 85);
-	font-family: 'Glegoo', serif;
-
-}
-
-p{
-	font-family: 'Glegoo', serif;
-
-}
-
-/*about section
-*/
-
-#about_header{
-}
-
-#about_text{
-	margin-top: -6px;
-}
-h4.skills{
-	color: rgb(100, 46, 85);
-	font-family: 'Glegoo', serif;
-	font-size: 42px;
-	margin-bottom: -12px;
+.skills:hover{
+	color: black;
+	font-family: 'Jura', sans-serif;
+	font-size: 44px;
+	font-weight: 900;
 }
 
 #skills_header{
 	padding-top: 50px;
 }
 
+h3.header_top{
+	color: rgb(30,30,30);
+	font-family: 'Jura', sans-serif;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+#about_text{
+	margin-top: -6px;
+}
+
+
+
 .skill_box{
-	background-color: rgba(116,116,116,.6);
+	background-color: rgba(186,186,186,.2);
 	height: 220px;
 	text-align: center;
-	border-radius: 20px;
-	font-size: 16px;
-	letter-spacing: 4px
+	border-radius: 4px;
+	font-size: 8;
+	letter-spacing: 5px;
+	border: black dashed;
 }
+
+.skill_box:hover{
+	background-color: rgba(186,186,186,.2);
+	height: 220px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 8;
+	letter-spacing: 5px;
+	border: #F07A80 dashed;
+}
+
+
 #headshot{
 	height: 200px;
 	width: auto;
+	border-radius: 4px;
 }
 
 .contact-image{
@@ -85,4 +117,21 @@ h4.skills{
 
 .projects{
 	text-align: center;
+}
+
+.exp_header{
+	color: rgb(50,50,50);
+	font-family: 'Jura', sans-serif;
+	font-size: 38px;
+	font-weight: 800;
+}
+.project_header{
+	color: rgb(50,50,50);
+	font-family: 'Jura', sans-serif;
+	font-size: 38px;
+	font-weight: 800;
+}
+.project_header:hover{
+	color: #F07A80;
+	text-decoration: underline;
 }
