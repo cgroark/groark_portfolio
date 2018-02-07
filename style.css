@@ -49,9 +49,6 @@
 	text-align: center;
 }
 
-
-
-
 .header_black{
 	color: rgb(30,30,30);
 	font-family: 'Permanent Marker', cursive;
@@ -147,11 +144,25 @@ p{
 }
 
 .project-description{
-	margin: -12% 10% 15% 0;
-    padding: 6px 18px;
+/*	margin: -12% 10% 15% 0;
+*/    padding: 6px 18px;
     background-color: rgba(240,240,240, .6);
     border-radius: 5px;
 }
+
+.project-column{
+	margin-bottom: 40px;
+}
+
+.project-column-right1{
+	margin: 40px 0;
+}
+
+.project-column-right2{
+    margin: -45px 0 35px 0;
+}
+
+
 
 .exp_header{
 	color: rgb(50,50,50);
