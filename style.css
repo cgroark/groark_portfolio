@@ -1,25 +1,26 @@
-
 .nav-wrapper{
 	background-color: #6AA9AD;
 }
-
 .nav-header{
 	color: rgb(50,50,50);
-	font-family: 'Jura', sans-serif;
+	font-family: 'Prosto One', cursive;
 	font-size: 22px;
-	letter-spacing: 2px;
+	margin-right: 20px;
 }
+.nav-header:hover{
+	color: #F07A80;
 
+}
 .section-experience{
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: rgba(240,240,240, .6);
-	border-radius: 5px;
+	border-radius: 4px;
 }
 
 .experience-column{
-	margin: 0;
-}
+/*	margin: 5px 1px;
+*/}
 
 .experience-image{
 	background-image: url("images/dune1bw.jpg");
@@ -30,7 +31,7 @@
 
 #main-header{
 	color: rgb(20,20,20);
-	font-family: 'Jura', sans-serif;
+	font-family: 'Baumans', cursive;
 	font-size: 102px;
 	font-weight: 900;
 }
@@ -39,25 +40,29 @@
 	color: rgb(50,50,50);
 	font-weight: 800;
 	font-size: 48px;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Prosto One', cursive;
+}
+
+.header-icons{
+	margin-top: 170px;
 }
 
 .section-header{
 	color: #6AA9AD;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Prosto One', cursive;
 	font-size: 60px;
 	text-align: center;
 }
 
 .header_black{
 	color: rgb(30,30,30);
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Prosto One', cursive;
 	font-size: 44px;
 
 }
 .skills{
 	color: #F07A80;
-	font-family: 'Jura', sans-serif;
+	font-family: 'Cuprum', sans-serif;
 	font-size: 38px;
 	font-weight: 800;
 }
@@ -69,19 +74,17 @@
 
 h3.header_top{
 	color: rgb(30,30,30);
-	font-family: 'Jura', sans-serif;
+	font-family: 'Cuprum', sans-serif;
 }
 
 p{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 
 }
 
 #about_text{
 	margin-top: -6px;
 }
-
-
 
 .skill_box{
 	background-color: rgba(186,186,186,.2);
@@ -108,6 +111,7 @@ p{
 	height: 200px;
 	width: auto;
 	border-radius: 4px;
+	margin-top: -30px;
 }
 
 .contact-image{
@@ -124,6 +128,7 @@ p{
 	height: 220px;
 	width: auto;
 	padding-left: 10px;
+	border-radius: 2px;
 }
 
 .projects{
@@ -139,15 +144,15 @@ p{
 }
 
 .project-background{
-	background-image: url("images/sandbw.jpg");
-	background-size: cover;
+	background-color: white;
 }
 
 .project-description{
 /*	margin: -12% 10% 15% 0;
-*/    padding: 6px 18px;
-    background-color: rgba(240,240,240, .6);
-    border-radius: 5px;
+*/  padding: 6px 18px;
+    background-color: rgba(190,190,190,.6);
+    border-radius: 2px;
+    border: solid 3px #6AA9AD;
 }
 
 .project-column{
@@ -155,28 +160,31 @@ p{
 }
 
 .project-column-right1{
-	margin: 40px 0;
+	margin: 0;
 }
 
 .project-column-right2{
     margin: -45px 0 35px 0;
 }
 
-
-
 .exp_header{
 	color: rgb(50,50,50);
-	font-family: 'Jura', sans-serif;
+	font-family: 'Prosto One', cursive;
 	font-size: 38px;
 	font-weight: 800;
 }
 .project_header{
 	color: rgb(50,50,50);
-	font-family: 'Jura', sans-serif;
+	font-family: 'Prosto One', cursive;
 	font-size: 38px;
 	font-weight: 800;
 }
 .project_header:hover{
 	color: #F07A80;
-	text-decoration: underline;
+}
+
+.parallax-container{
+    position: relative;
+    overflow: hidden;
+    height: 720px !important;
 }

@@ -5,7 +5,7 @@
 	<title>Portfolio</title>
 	<style href="style.css" type="text/css"></style>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Jura|Orbitron|Permanent+Marker|Raleway|Righteous|Bangers " rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baumans|Cuprum|Prosto+One|Ubuntu" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 <body>
@@ -13,12 +13,11 @@
 	    <div class="nav-wrapper">
 	     	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      		<ul class="right hide-on-med-and-down">
-			        <li><a class="nav-header" href="#about_header">About</a></li>
-			        <li><a class="nav-header" href="#projects_header">Recent Work</a></li>
-			        <li><a class="nav-header" href="#experience_header">Experience</a></li>
-			        <li><a class="nav-header" class="nav-header" href="#contact_header">Contact</a></li>
-			       	<li><a class="nav-header" href="https://resume.creddle.io/" target="blank">Resume</a></li>
-
+			        <li><a class="nav-header" href="#about_header">about</a></li>
+			        <li><a class="nav-header" href="#projects_header">recent work</a></li>
+			        <li><a class="nav-header" href="#experience_header">experience</a></li>
+			        <li><a class="nav-header" class="nav-header" href="#contact_header">contact</a></li>
+			       	<li><a class="nav-header" href="https://resume.creddle.io/" target="blank">resume</a></li>
 	      		</ul>
 			     <ul class="side-nav" id="mobile-demo">
 			        <li><a href="sass.html">Sass</a></li>
@@ -31,15 +30,31 @@
 	<div class="parallax-container">
     <div class="parallax img1"><img src="images/dune2bw.jpg" alt="sand">
     </div>
-    <h1 id="main-header">Colin Groark</h1>
-    <h3 class="secondary-header">Full Stack Web Developer</h3>
+    <div class="row">
+      <div class="col s6 offset-s1">
+        <h1 id="main-header">colin groark</h1>
+        <h3 class="secondary-header">web developer</h3>
+      </div>
+    </div>
+    <div class="row header-icons">
+         <div class="col s2 offset-s8">
+            <a href="https://github.com/cgroark" target="blank"><img class="contact-image" src="images/github.png"></a>
+         </div>
+         <div class="col s2">
+            <a href="https://www.linkedin.com/in/colin-groark/" target="blank"><img class="contact-image" src="images/linkedin.png"></a>
+         </div>
+    </div>
   </div>
 	<div class="section about" id="about_header">
- 		<div class="row container">
-    		<h2 class="section-header">about</h2>
+ 		<div class="container">
+        <div class="row">
+          <div class="col s3">
+      		  <h2 class="section-header">about</h2>
+          </div>
+        </div>
     		<div class="row">
     				<div class="col s8">
-    					<p id="about_text">I’m a full-stack web developer with experience untangling problems and developing efficient systems and tools for programs and teams in the private and non-profit sectors. Having consistently taken on roles in which I saw the immediate need to redesign or create new systems to manage information,  I’ve shifted to a career that allows me draw on that experience and build elegant tools everyday that improve how people interact with the world around them.  Whether it’s building full-stack applications, or designing budget tracking systems, I look for opportunities to break-down complex problems and create tools rooted in efficiency and usability. I want to collaborate with a driven team to craft innovative tools that offer a host of solutions to the complexities of everyday life.</p>
+    					<p id="about_text">I’m a full-stack web developer with experience untangling problems and developing efficient systems and tools for programs and teams in the private and non-profit sectors. Whether it’s building full-stack applications, or designing budget tracking systems, I look for opportunities to break-down complex problems and build elegant tools that help people seamlessly interact with the world around them. I want to collaborate with a driven team to craft innovative tools that offer a host of solutions to the complexities of everyday life.</p>
     				</div>
     				<div class="col s4">
     					<img id="headshot" src="images/BW-Colin.jpg">
@@ -90,10 +105,10 @@
     </div>
     <div class="row">
       <div class="col s6">
-        <img class="project-image" src="images/getout1.png">
+        <img class="z-depth-3 project-image" src="images/getout1.png">
       </div>
-      <div class="col s6 project-column-right2">
-        <div class="project-description">
+      <div class="col s5 project-column-right2">
+        <div class="z-depth-3 project-description">
           <p>Full-stack Node.js Express web application accessing data from three APIs.</p>
           <p>Search for National Parks by state, save your favorite parks, see location via Google Maps and real-time weather forecast from Weather Underground API</p>
           <p>Technologies:  JavaScript,  JQuery, Node.JS, Express, PostreSQL, National Park Service API, Google Maps API, Weather Underground API, CSS, HTML. Deployed on Heroku.</p>
@@ -112,13 +127,15 @@
     </div>
 		<div class="row">
       <div class="col s6 project-column">
-        <img class="project-image" src="images/waste2.png">
+        <img class="z-depth-3 project-image" src="images/waste2.png">
       </div>
-      <div class="col s6 project-column-right1">
-        <div class="project-description">
-  			  <p>Front-end drag and drop educational game built using JavaScript, JQuery, CSS, CSS Animate, and HTML</p>
+      <div class="col s5 project-column-right1">
+        <div class="z-depth-3 project-description">
+  			  <p>Front-end drag and drop educational game</p>
+          <p>Race a timer and score points when sorting trash, compost and recylable objects correctly</p>
+          <p>Technologies: JavaScript, JQuery, CSS, CSS Animate, and HTML. Deployed with GitHub Pages</p>
           <a href="https://cgroark.github.io/game-waste/" target="blank">Link to Game</a><br>
-          <a href="https://github.com/cgroark/game-waste" target="blank">Link to Code on Github</a>
+          <a href="https://github.com/cgroark/game-waste" target="blank">Link to Code on GitHub</a>
         </div>
       </div>
     </div>
@@ -131,13 +148,13 @@
     </div>
     <div class="row">
       <div class="col s6">
-        <img class="project-image" src="images/dunepoint.jpg">
+        <img class="z-depth-3 project-image" src="images/dunepoint.jpg">
       </div>
-      <div class="col s6">
-        <div class="project-description">
+      <div class="col s5">
+        <div class="z-depth-3 project-description">
           <p>final project description final project descriptions</p>
           <a href="#" target="blank">Link to Website</a><br>
-          <a href="#" target="blank">Link to Code on Github</a>
+          <a href="#" target="blank">Link to Code on GitHub</a>
         </div>
       </div>
     </div>      
@@ -164,7 +181,7 @@
               </ul>
       		</div>
       		<div class="col s4 ">
-      			<h3 class="exp_header">business development</h3>
+      			<h3 class="exp_header experience-column">business development</h3>
               <ul>
                   <li>Sucessfully leading strategy and proposal writing for local and federal environmental grant awards</li>
                   <li>Coordinating diverse technical teams to secure more than 100 local, state and federal contracts for public sector consulting firms</li> 
@@ -180,11 +197,9 @@
       <div class="row">
     	   <div class="col s4">
     		    <a href="https://github.com/cgroark" target="blank"><img class="contact-image" src="images/github.png"></a>
-    		    <p>github</p>
     	   </div>
     	   <div class="col s4">
     		    <a href="https://www.linkedin.com/in/colin-groark/" target="blank"><img class="contact-image" src="images/linkedin.png"></a>
-    		    <p>linkedIn</p>
     	   </div>
     	   <div class="col s4">
     		    <a href="https://resume.creddle.io/" target="blank"><img class="contact-image" src="images/resume.png"></a>
