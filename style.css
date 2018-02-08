@@ -18,15 +18,14 @@
 	border-radius: 4px;
 }
 
-.experience-column{
-/*	margin: 5px 1px;
-*/}
+.exp-row{
+	margin: 0 -105px !important;
+}
 
 .experience-image{
 	background-image: url("images/dune1bw.jpg");
 	background-size: cover;
 	padding: 5% 0;
-
 }
 
 #main-header{
@@ -93,7 +92,7 @@ p{
 	border-radius: 4px;
 	font-size: 8;
 	letter-spacing: 5px;
-	border: black dashed;
+	border: black solid;
 }
 
 .skill_box:hover{
@@ -103,7 +102,7 @@ p{
 	border-radius: 4px;
 	font-size: 8;
 	letter-spacing: 5px;
-	border: #F07A80 dashed;
+	border: #F07A80 solid;
 }
 
 
@@ -148,12 +147,17 @@ p{
 }
 
 .project-description{
-/*	margin: -12% 10% 15% 0;
-*/  padding: 6px 18px;
+	padding: 6px 18px;
     background-color: rgba(190,190,190,.6);
     border-radius: 2px;
     border: solid 3px #6AA9AD;
 }
+
+.project-description:hover{
+   	border: 3px #F07A80 solid;
+}
+
+
 
 .project-column{
 	margin-bottom: 40px;
@@ -169,14 +173,14 @@ p{
 
 .exp_header{
 	color: rgb(50,50,50);
-	font-family: 'Prosto One', cursive;
+	font-family:'Prosto One', cursive;
 	font-size: 38px;
 	font-weight: 800;
 }
 .project_header{
 	color: rgb(50,50,50);
-	font-family: 'Prosto One', cursive;
-	font-size: 38px;
+	font-family:'Baumans', cursive;
+	font-size: 42px;
 	font-weight: 800;
 }
 .project_header:hover{
