@@ -7,24 +7,27 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Baumans|Cuprum|Prosto+One|Ubuntu" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body>
-  <div class="navbar-fixed">
+  <div class="navbar-fixed" id="navbar">
   	<nav>
 	    <div class="nav-wrapper nav-color">
+          <a href="#navbar"><img class="img-up" src="images/arrowup.png"></a>
 	     	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      		<ul class="right hide-on-med-and-down">
 			        <li><a class="nav-header" href="#about_header">about</a></li>
 			        <li><a class="nav-header" href="#projects_header">recent work</a></li>
 			        <li><a class="nav-header" href="#experience_header">experience</a></li>
-			        <li><a class="nav-header" class="nav-header" href="#contact_header">contact</a></li>
+			        <li><a class="nav-header" href="#contact_header">contact</a></li>
 			       	<li><a class="nav-header" href="https://resume.creddle.io/" target="blank">resume</a></li>
 	      		</ul>
 			     <ul class="side-nav" id="mobile-demo">
-			        <li><a href="sass.html">Sass</a></li>
-			        <li><a href="badges.html">Components</a></li>
-			        <li><a href="collapsible.html">Javascript</a></li>
-			        <li><a href="mobile.html">Mobile</a></li>
+			        <li><a href="#about_header">About</a></li>
+			        <li><a href="#projects_header">Recent Work</a></li>
+			        <li><a href="#experience_header">Experience</a></li>
+			        <li><a href="#contact_header">Contact</a></li>
 			     </ul>
 	    </div>
 	 </nav>
@@ -34,20 +37,29 @@
     </div>
     <div class="row">
       <div class="col s6 offset-s1">
-        <h1 id="main-header">colin groark</h1>
-        <h3 class="secondary-header">web developer</h3>
+        <h1 id="main-header">colin groark</h1></p> 
+        <h3 class="secondary-header">web developer<span class="header-cursor"> |</span></h3>
       </div>
     </div>
     <div class="row header-icons">
-         <div class="col s2 offset-s8">
-            <a href="https://github.com/cgroark" target="blank"><img class="contact-image" src="images/github.png"></a>
-         </div>
-         <div class="col s2">
-            <a href="https://www.linkedin.com/in/colin-groark/" target="blank"><img class="contact-image" src="images/linkedin.png"></a>
-         </div>
+      <a href="https://github.com/cgroark" target="blank">
+        <div class="git-img col s2 offset-s6">
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/colin-groark/" target="blank">
+        <div class="link-img col s2">
+        </div>
+      </a>
+      <a href="#about_header">
+        <div class="arrow-img col s2">
+        </div>
+      </a>
     </div>
+
   </div>
-	<div class="section about" id="about_header">
+  <div class="section-top" id="about_header"></div>
+
+	<div class="section about">
  		<div class="container">
         <div class="row">
           <div class="col s3">
@@ -59,110 +71,220 @@
     					<p id="about_text">I’m a full-stack web developer with experience untangling problems and developing efficient systems and tools for programs and teams in the private and non-profit sectors. Whether it’s building full-stack applications, or designing budget tracking systems, I look for opportunities to break-down complex problems and build elegant tools that help people seamlessly interact with the world around them. I want to collaborate with a driven team to craft innovative tools that offer a host of solutions to the complexities of everyday life.</p>
     				</div>
     				<div class="col s4">
-    					<img id="headshot" src="images/BW-Colin.jpg">
+    					<img class="z-depth-3" id="headshot" src="images/BW-Colin.jpg">
     				</div>
     		</div>
-      	<div class="row">
-            <div class="col s3">
+        <div class="row">
+        <div class="col s2">
               <h2 class="header_black" id="skills-header">skills</h2>
+        </div>
+        </div>
+      	<div class="row">
+            <div class="z-depth-3 col s12 skill_box">
+	      				<div class="row skills-front">
+                  <div class="col s2">           
+                    <h4 class="skills-header-front">front end:</h4>  
+                  </div> 
+                  <div class="icon col s2">
+  	      					<img class="skill-icon" src="images/react.png">
+                    <p class="skill-name">React</p>
+                  </div>   
+                   <div class="icon col s2">
+                    <img id="js" class="skill-icon" src="images/js.png">
+                    <p class="skill-name">JavaScript</p>
+                  </div> 
+                   <div class="icon col s2">
+                    <img class="skill-icon" src="images/jquery.png">
+                    <p class="skill-name">JQuery</p>
+                  </div> 
+                   <div class="icon col s2">
+                    <img class="skill-icon" src="images/css3.png">
+                    <p class="skill-name">CSS</p>
+                  </div> 
+                   <div class="icon col s2">
+                    <img id="html1" class="skill-icon" src="images/html5.png">
+                    <p class="skill-name">HTML</p>
+                  </div>
+	      				</div>
+	      		</div>
+          </div>
+          <div class="row">
+            <div class="z-depth-3 col s12 skill_box">
+                <div class="row skills-front">
+                  <div class="icon col s2">
+                    <img class="skill-icon" src="images/python.png">
+                    <p class="skill-name">Python</p>
+                  </div>   
+                   <div class="icon col s2">
+                    <img class="skill-icon" src="images/postgresql.png">
+                    <p class="skill-name">PostgreSQL</p>
+                  </div> 
+                   <div class="icon col s2">
+                    <img class="skill-icon" src="images/nodejs.png">
+                    <p class="skill-name">Node.js</p>
+                  </div> 
+                   <div class="icon col s2">
+                    <img class="skill-icon" src="images/mongo.png">
+                    <p class="skill-name">MongoDB</p>
+                  </div> 
+                   <div class="icon col s2">
+                    <img class="skill-icon" id="django" src="images/django.png">
+                  </div>
+                  <div class="col s2">           
+                    <h4 class="skills-header-back">:back end</h4>  
+                  </div> 
+                </div>
             </div>
-            <div class="col s4 skill_box">
-	      			<h4 class="skills">front-end</h4>
-	      				<ul>
-	      					<li>React</li>
-	      					<li>ES6</li>
-	      					<li>JQuery</li>
-	      					<li>JavaScript</li>
-	      					<li>CSS</li>
-	      					<li>HTML</li>
-	      				</ul>
-	      		</div>
-            <div class="col s1"></div>
-	      		<div class="col s4 skill_box">
-	      			<h4 class="skills">back-end</h4>
-	      				<ul>
-	      					<li>PostgreSQL</li>
-	      					<li>Python</li>
-	      					<li>Django</li>
-	      					<li>Node.js</li>
-                  <li>MongoDB</li>
-	      				</ul>
-	      		</div>
-            <div class="col s1"></div>
+          </div>
       	</div>
  		</div>
  	</div>
+  <div class="section-top" id="projects_header"></div>
 
- 	<div class="section projects" id="projects_header">
-    <div class="row container">
-   	  <div class="col s12">
-      	<h2 class="section-header">recent work</h2>
-    </div>
-  </div>
+
+ 	<div class="section projects">
+      <div class="row container">
+     	  <div class="col s12">
+        	<h2 class="section-header-projects">recent work</h2>
+        </div>
+      </div>
    <div class="project-background">
     <div class="row">
-      <div class="col s6">
+      <div class="col s6 offset-s6">
         <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank"><h3 class="project_header">Get Out There</h3></a>
       </div>
     </div>
-    <div class="row">
-      <div class="col s6">
-        <img class="z-depth-3 project-image" src="images/getout1.png">
-      </div>
-      <div class="col s5 project-column-right2">
-        <div class="z-depth-3 project-description">
-          <p>Full-stack Node.js Express web application accessing data from three APIs.</p>
-          <p>Search for National Parks by state, save your favorite parks, see location via Google Maps and real-time weather forecast from Weather Underground API</p>
-          <p>Technologies:  JavaScript,  JQuery, Node.JS, Express, PostreSQL, National Park Service API, Google Maps API, Weather Underground API, CSS, HTML. Deployed on Heroku.</p>
-          <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank">Link to Website</a><br>
-          <p>login credentials: email - sample@testing.com; password: sample</p>
-          <a href="https://github.com/cgroark/project2" target="blank">Link to Code on Github</a>
-        </div>
-      </div>
+      <div class="row">
+          <div class="col s6 project-column-left"">
+            <div class="z-depth-3 project-image-get"></div>
+              <div class="icon-container">
+                <div class="row">
+                  <div class="icon col s3">
+                    <img class="project-icon" src="images/postgresql.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img class="project-icon" src="images/nodejs.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img id="js" class="project-icon" src="images/js.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img class="project-icon" id="restful" src="images/restful.png">
+                  </div> 
+                </div>
+                <div class="row">
+                  <div class="icon col s3">
+                    <img class="project-icon" src="images/jquery.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img class="project-icon" src="images/css3.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img id="html" class="project-icon" src="images/html5.png">
+                  </div>
+                  <div class="icon col s3">
+                    <img class="project-icon" id="bootstrap" src="images/bootstrap.png">
+                  </div> 
+                </div>
+              </div>
+          </div>
+          <div class="col s4 offset-s1 project-column-right">
+            <div class="z-depth-3 project-description">
+              <p class="project-overview">Full-stack Node.js Express web application</p>
+              <p>Search for National Parks by state, save your favorite parks, see location and real-time weather forecast</p>
+              <p>RESTful APIs: National Park Service, Google Maps, Weather Underground</p>
+              <a class="project-link" href="https://get-out-there-parksweather.herokuapp.com/" target="blank">Heroku Link</a>
+              <p class="project-text">(login credentials: email - sample@testing.com; password: sample)</p>
+              <a class="project-link" href="https://github.com/cgroark/project2" target="blank">Link to Code on Github</a>
+            </div>
+          </div>
     </div>
   </div>
   <div class="project-background">
     <div class="row">
-      <div class="col s6">
-        <a href="https://cgroark.github.io/game-waste/" target="blank"><h3 class="project_header">Sort It Game</h3></a>
+      <div class="col s6 offset-s6">
+        <a href="https://cgroark.github.io/game-waste/" target="blank"><h3 class="project_header">Sort It Game</h3></a>      
       </div>
     </div>
-		<div class="row">
-      <div class="col s6 project-column">
-        <img class="z-depth-3 project-image" src="images/waste2.png">
-      </div>
-      <div class="col s5 project-column-right1">
-        <div class="z-depth-3 project-description">
-  			  <p>Front-end drag and drop educational game</p>
-          <p>Race a timer and score points when sorting trash, compost and recylable objects correctly</p>
-          <p>Technologies: JavaScript, JQuery, CSS, CSS Animate, and HTML. Deployed with GitHub Pages</p>
-          <a href="https://cgroark.github.io/game-waste/" target="blank">Link to Game</a><br>
-          <a href="https://github.com/cgroark/game-waste" target="blank">Link to Code on GitHub</a>
-        </div>
-      </div>
+      <div class="row">
+          <div class="col s6 project-column-left"">
+            <div class="z-depth-3 project-image-waste""></div>
+              <div class="icon-container-waste">
+                <div class="row">
+                  <div class="icon col s3">
+                    <img id="js" class="project-icon" src="images/js.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img class="project-icon" src="images/jquery.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img class="project-icon" src="images/css3.png">
+                  </div> 
+                  <div class="icon col s3">
+                    <img id="html" class="project-icon" src="images/html5.png">
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col s4 offset-s1 project-column-right">
+            <div class="z-depth-3 project-description">
+              <p class="project-overview">Drag and drop educational game</p>
+              <p>Race a timer and score points when sorting trash, compost and recylable objects correctly</p>
+              <p>Deployed with GitHub Pages</p>
+              <a href="https://cgroark.github.io/game-waste/" target="blank">Link to Game</a><br>
+              <a href="https://github.com/cgroark/game-waste" target="blank">Link to Code on GitHub</a>
+            </div>
+          </div>
     </div>
   </div>
-  <div class="project-background">
-    <div class="row">
-      <div class="col s6">
-        <a href="#" target="blank"><h3 class="project_header">HouseHub</h3></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <img class="z-depth-3 project-image" src="images/dunepoint.jpg">
-      </div>
-      <div class="col s5">
-        <div class="z-depth-3 project-description">
-          <p>final project description final project descriptions</p>
-          <a href="#" target="blank">Link to Website</a><br>
-          <a href="#" target="blank">Link to Code on GitHub</a>
+   <div class="project-background">
+      <div class="row">
+        <div class="col s6 offset-s6">
+          <a href="#" target="blank"><h3 class="project_header">HouseHub</h3></a>
         </div>
       </div>
-    </div>      
- 	</div>
-   
-  <div class="experience-image" id="experience_header">
+        <div class="row">
+            <div class="col s6 project-column-left"">
+              <div class="z-depth-3 project-image-house"></div>
+                <div class="icon-container">
+                  <div class="row">
+                    <div class="icon col s4">
+                      <img class="project-icon" src="images/react.png">
+                    </div> 
+                    <div class="icon col s4">
+                      <img id="mongodb" class="project-icon" src="images/mongoDB.png">
+                    </div> 
+                    <div class="icon col s4">
+                      <img id="js" class="project-icon" src="images/js.png">
+                    </div> 
+                  </div>
+                  <div class="row">
+    
+                    <div class="icon col s6">
+                      <img class="project-icon" src="images/css3.png">
+                    </div> 
+                    <div class="icon col s6">
+                      <img id="html" class="project-icon" src="images/html5.png">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col s4 offset-s1 project-column-right">
+              <div class="z-depth-3 project-description">
+                <p class="project-overview">Full-stack React/MongoDB web application </p>
+                <p>Create a house profile with roommates. Assign and track chores and pantry items, post memos to house board, and track house bills</p>
+                <p>Created in partnership with Taylor Darneille and Peter Barbarone</p>
+                <a class="project-link" href="#" target="blank">Heroku Link</a>
+                <p class="project-text">(login credentials: email - sample@testing.com; password: sample)</p>
+                <a class="project-link" href="https://github.com/cgroark/mern-hackathon" target="blank">Link to Code on Github</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="section-top" id="experience_header"></div>
+
+  </div>
+  <div class="experience-image">
    	<div class="section-experience">
   		<div class="row container">
   			<div class="col s12">
@@ -217,6 +339,8 @@
  	<script src="script.js"></script>
 
 
+<!-- <embed src="Resume_---_2018.pdf" type="application/pdf" width="100%" height="100%px" />
+ -->
 
 </body>
 </html>
