@@ -28,8 +28,7 @@
   	animation: type 4s steps(60, end); 
 }
 .section-experience{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin: 0 10% 10% 10%;
 	background-color: rgba(240,240,240, .6);
 	border-radius: 4px;
 }
@@ -37,6 +36,7 @@
 	margin: 0 -105px !important;
 }
 .experience-image{
+	height: 620px;
 	background-image: url("images/dune1bw.jpg");
 	background-size: cover;
 	padding: 5% 0;
@@ -114,6 +114,14 @@
 }
 .section-top{
 	height: 49px;
+	border: none;
+	background-color: transparent;
+}
+.section-top-contact{
+	height: 50px;
+	margin-top: -32px;
+	border: none;
+	background-color: transparent;
 }
 .skills-header-front{
 	color: #F07A80;
@@ -251,7 +259,7 @@ p{
 }
 .project-background{
 	background-color: rgb(225,225,225);
-	margin: 4% 7%;
+	margin: 2% 7%;
 	border-radius: 3px;
 	height: 480px;
 }
@@ -298,7 +306,28 @@ p{
 .project-column-left{
 	height: 360px;	
 	margin-top: -30px;
-
+}
+.down-button{
+	margin-top: 240px;
+	height: 71px;
+	width: 71px;
+	background-image: url("images/arrow-grey-2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.down-button:hover{
+	background-image: url("images/arrow-grey.png");
+}
+.up-button{
+	margin-top: 240px;
+	height: 71px;
+	width: 71px;
+	background-image: url("images/arrow-up-grey.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.up-button:hover{
+	background-image: url("images/arrow-up-grey-2.png");
 }
 .icon-container{
 	margin-top: 20px;
@@ -314,16 +343,57 @@ p{
 	font-weight: 800;
 	text-align: center;
 }
-.contact-image{
-	height: 80px;
-	width: auto;
+.exp-list{
+	list-style-type: circle !important;
+	text-align: center;
 }
+.contact-background{
+	background-color: rgb(225,225,225);
+	margin: 4% 7%;
+	border-radius: 3px;
+	height: 448px;
+	text-align: center;
+}
+.git-img-contact{
+	margin: 100px 0 0 14px;
+	height: 140px;
+	width: auto;
+	background-image: url("images/githubwhite.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 
+}
+.git-img-contact:hover{
+	background-image: url("images/github.png");
+}
+.link-img-contact{
+	margin: 110px 0 0 24px;
+	height: 110px;
+	width: auto;
+	background-image: url("images/linkedinwhite.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.link-img-contact:hover{
+	background-image: url("images/linkedin.png");
+}
+.resume-img-contact{
+	margin: 110px 0 0 24px;
+	height: 110px;
+	width: auto;
+	background-image: url("images/resumewhite.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.resume-img-contact:hover{
+	background-image: url("images/resume.png");
+}
 .contact{
 	height: 80px;
 	text-align: center;
+	font-family: 'Prosto One', cursive;
+	color: #6AA9AD;
 }
-
 
 .parallax-container{
     position: relative;
