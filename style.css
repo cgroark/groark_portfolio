@@ -17,6 +17,8 @@
 	font-size: 102px;
 	font-weight: 900;
 }
+
+
 .secondary-header{
 	color: rgb(50,50,50);
 	font-weight: 800;
@@ -123,6 +125,12 @@
 	border: none;
 	background-color: transparent;
 }
+#headshot{
+	height: 200px;
+	width: auto;
+	border-radius: 4px;
+	margin-top: -30px;
+}
 .skills-header-front{
 	color: #F07A80;
 	font-family: 'Cuprum', sans-serif;
@@ -164,18 +172,6 @@
 	width: 60px;
 	height: auto;
 }
-h3.header_top{
-	color: rgb(30,30,30);
-	font-family: 'Cuprum', sans-serif;
-}
-p{
-	font-family: 'Ubuntu', sans-serif;
-
-}
-#about_text{
-	margin-top: -6px;
-}
-
 .icon{
 	text-align: center;
 }
@@ -192,14 +188,47 @@ p{
 	width: 66px;
 	margin-top: -4px;
 }
+@media (max-width: 600px){
+	#main-header{
+		font-size: 80px;
+	}
+	#headshot{
+		height: 170px;
+		margin-top: 0px;
+	}
 
-#headshot{
-	height: 200px;
-	width: auto;
-	border-radius: 4px;
-	margin-top: -30px;
+	.skill-icon{
+		width: 40px;
+	}
+	#django{
+		width: 55px;
+	}
+	#html1{
+		width: 44px;
+	}
+	.skills-header-front, .skills-header-back{
+		font-size: 22px;
+	}
+	.skill-name{
+		font-size: 8px;
+	}
+}
+
+
+h3.header_top{
+	color: rgb(30,30,30);
+	font-family: 'Cuprum', sans-serif;
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
 
 }
+#about_text{
+	margin-top: -6px;
+}
+
+
+
 .projects{
 	background-color: rgb(50,50,50);
 	text-align: center;
@@ -335,6 +364,35 @@ p{
 .icon-container-waste{
 	margin-top: 40px;
 }
+@media (min-width: 600px){
+	#main-header{
+		font-size: 80px;
+	}
+	#headshot{
+		height: 170px;
+		margin-top: 0px;
+	}
+
+	.skill-icon{
+		width: 40px;
+	}
+	#django{
+		width: 55px;
+	}
+	#html1{
+		width: 44px;
+	}
+	.skills-header-front, .skills-header-back{
+		font-size: 22px;
+	}
+	.skill-name{
+		font-size: 8px;
+	}
+	.project-image-get{
+		height: 180px;
+		margin-bottom: 10px;
+	}
+}
 
 .exp_header{
 	color: rgb(50,50,50);
@@ -351,7 +409,7 @@ p{
 	background-color: rgb(225,225,225);
 	margin: 4% 7%;
 	border-radius: 3px;
-	height: 448px;
+	height: 320px;
 	text-align: center;
 }
 .git-img-contact{
@@ -393,6 +451,16 @@ p{
 	text-align: center;
 	font-family: 'Prosto One', cursive;
 	color: #6AA9AD;
+}
+.page-footer{
+	background-color: rgb(180,180,180) !important;
+}
+.footer{
+	font-size: 16px;
+	bottom: 0;
+	text-align: center;
+	font-family: 'Prosto One', cursive;
+	color: rgb(25,25,25);
 }
 
 .parallax-container{

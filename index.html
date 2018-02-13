@@ -23,20 +23,20 @@
 			        <li><a class="nav-header" href="#contact_header">contact</a></li>
 			       	<li><a class="nav-header" href="https://resume.creddle.io/" target="blank">resume</a></li>
 	      		</ul>
-			     <ul class="side-nav" id="mobile-demo">
-			        <li><a href="#about_header">About</a></li>
-			        <li><a href="#projects_header">Recent Work</a></li>
-			        <li><a href="#experience_header">Experience</a></li>
-			        <li><a href="#contact_header">Contact</a></li>
-			     </ul>
 	    </div>
 	 </nav>
   </div>
+   <ul class="side-nav" id="mobile-demo">
+      <li><a href="#about_header">About</a></li>
+      <li><a href="#projects_header">Recent Work</a></li>
+      <li><a href="#experience_header">Experience</a></li>
+      <li><a href="#contact_header">Contact</a></li>
+  </ul>
 	<div class="parallax-container">
     <div class="parallax img1"><img src="images/dune2bw.jpg" alt="sand">
     </div>
     <div class="row">
-      <div class="col s6 offset-s1">
+      <div class="col s12 offset-s1">
         <h1 id="main-header">colin groark</h1></p> 
         <h3 class="secondary-header">web developer<span class="header-cursor"> |</span></h3>
       </div>
@@ -150,12 +150,22 @@
       </div>
    <div class="project-background">
     <div class="row">
-      <div class="col s6 offset-s6">
+      <div class="col  m12 l6 offset-l5">
         <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank"><h3 class="project_header">Get Out There</h3></a>
       </div>
     </div>
       <div class="row">
-          <div class="col s6 project-column-left"">
+        <div class="col m12 l4 offset-l1 project-column-right">
+            <div class="z-depth-3 project-description">
+              <p class="project-overview">Full-stack Node.js Express web application</p>
+              <p>Search for National Parks by state, save your favorite parks, see location and real-time weather forecast</p>
+              <p>RESTful APIs: National Park Service, Google Maps, Weather Underground</p>
+              <a class="project-link" href="https://get-out-there-parksweather.herokuapp.com/" target="blank">Heroku Link</a>
+              <p class="project-text">(login credentials: email - sample@testing.com; password: sample)</p>
+              <a class="project-link" href="https://github.com/cgroark/project2" target="blank">Link to Code on Github</a>
+            </div>
+          </div>
+          <div class="col m12 l6 project-column-left"">
             <div class="z-depth-3 project-image-get"></div>
               <div class="icon-container">
                 <div class="row">
@@ -188,16 +198,7 @@
                 </div>
               </div>
           </div>
-          <div class="col s4 offset-s1 project-column-right">
-            <div class="z-depth-3 project-description">
-              <p class="project-overview">Full-stack Node.js Express web application</p>
-              <p>Search for National Parks by state, save your favorite parks, see location and real-time weather forecast</p>
-              <p>RESTful APIs: National Park Service, Google Maps, Weather Underground</p>
-              <a class="project-link" href="https://get-out-there-parksweather.herokuapp.com/" target="blank">Heroku Link</a>
-              <p class="project-text">(login credentials: email - sample@testing.com; password: sample)</p>
-              <a class="project-link" href="https://github.com/cgroark/project2" target="blank">Link to Code on Github</a>
-            </div>
-          </div>
+          
           <a href="#sort-it">
             <div class="down-button col s1">
             </div>
@@ -366,9 +367,18 @@
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
  	<script src="script.js"></script>
 
-
-<!-- <embed src="images/Groark_Colin_resume2018.pdf" type="application/pdf" width="100%" height="100%px"/>
+<!-- 
+<embed src="images/Groark_Colin_resume2018.pdf" type="application/pdf" width="100%" height="100%px"/>
  -->
 
 </body>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h5 class="footer">colin groark 2018</h5>
+      </div>
+    </div>
+  </div>
+</footer>
 </html>
