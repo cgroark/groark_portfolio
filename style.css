@@ -33,12 +33,14 @@
 	margin: 0 10% 10% 10%;
 	background-color: rgba(240,240,240, .6);
 	border-radius: 4px;
+	height: 100%;
 }
 .exp-row{
 	margin: 0 -105px !important;
 }
+
 .experience-image{
-	height: 620px;
+	height: 100%;
 	background-image: url("images/dune1bw.jpg");
 	background-size: cover;
 	padding: 5% 0;
@@ -118,12 +120,21 @@
 	height: 49px;
 	border: none;
 	background-color: transparent;
+	z-index: -10;
 }
 .section-top-contact{
 	height: 50px;
 	margin-top: -32px;
 	border: none;
 	background-color: transparent;
+}
+.section-top-exp{
+	height: 50px;
+	margin-top: -32px;
+	border: none;
+	background-color: rgb(225,225,225);
+	z-index: -10;
+
 }
 #headshot{
 	height: 200px;
@@ -226,6 +237,9 @@ p{
 #about_text{
 	margin-top: -6px;
 }
+.about{
+	background-color: white;
+}
 
 
 
@@ -259,13 +273,7 @@ p{
 	width: 95px;
 	margin-top: 5px;
 }
-.project-image-get{
-	background-image: url("images/getout1.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 240px;
-	width: auto;
-	margin-left: 20px;
+.img-get{
 	border-radius: 2px;
 }
 .project-image-waste{
@@ -290,21 +298,22 @@ p{
 	background-color: rgb(225,225,225);
 	margin: 2% 7%;
 	border-radius: 3px;
-	height: 480px;
+	height: 100%;
 }
 .project_header{
 	color: rgb(50,50,50);
 	font-family:'Baumans', cursive;
 	font-size: 42px;
 	font-weight: 800;
-	margin-bottom: 40px;
+	margin-bottom: -5px;
 	text-align: center;
 }
 .project_header:hover{
 	color: #F07A80;
 }
 .project-description{
-	padding: 6px 18px;
+	margin-bottom: 30px;
+	padding: 16px 18px;
     background-color: white;
     border-radius: 2px;
     border: solid 3px #6AA9AD;
@@ -328,16 +337,9 @@ p{
 .project-text{
 	margin-top: 0;
 }
-.project-column-right{
-	height: 360px;	
-	margin-top: -30px;
-}
-.project-column-left{
-	height: 360px;	
-	margin-top: -30px;
-}
+
 .down-button{
-	margin-top: 240px;
+	margin-top: 180px;
 	height: 71px;
 	width: 71px;
 	background-image: url("images/arrow-grey-2.png");
@@ -364,7 +366,7 @@ p{
 .icon-container-waste{
 	margin-top: 40px;
 }
-@media (min-width: 600px){
+@media (max-width: 992px){
 	#main-header{
 		font-size: 80px;
 	}
@@ -388,16 +390,12 @@ p{
 	.skill-name{
 		font-size: 8px;
 	}
-	.project-image-get{
-		height: 180px;
-		margin-bottom: 10px;
-	}
 }
 
 .exp_header{
 	color: rgb(50,50,50);
 	font-family:'Prosto One', cursive;
-	font-size: 38px;
+	font-size: 30px;
 	font-weight: 800;
 	text-align: center;
 }
@@ -461,6 +459,13 @@ p{
 	text-align: center;
 	font-family: 'Prosto One', cursive;
 	color: rgb(25,25,25);
+}
+body{
+	background-color: rgb(180,180,180) !important;
+}
+.resume{
+	height: 100% !important;
+	width: auto;
 }
 
 .parallax-container{
