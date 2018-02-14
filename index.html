@@ -11,39 +11,49 @@
 
 </head>
 <body>
+  
   <div class="navbar-fixed" id="navbar">
+
   	<nav>
 	    <div class="nav-wrapper nav-color">
           <a href="#navbar"><img class="img-up" src="images/arrowup.png"></a>
 	     	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      		<ul class="right hide-on-med-and-down">
 			        <li><a class="nav-header" href="#about_header">about</a></li>
-			        <li><a class="nav-header" href="#projects_header">recent work</a></li>
+			        <li><a class="nav-header dropdown-button" data-activates="dropdown1">recent work<i class="material-icons right">arrow_drop_down</i></a></li>
 			        <li><a class="nav-header" href="#experience_header">experience</a></li>
 			        <li><a class="nav-header" href="#contact_header">contact</a></li>
-			       	<li><a class="nav-header" href="resume.html" target="blank">resume</a></li>
+			       	<li><object data="images/Groark_Colin_resume2018.pdf" type="application/x-pdf" title="SamplePdf" width="500" height="720"><a class="nav-header" href="images/Groark_Colin_resume2018.pdf" target="blank">resume</a></object>
+              </li>
 	      		</ul>
 	    </div>
 	 </nav>
   </div>
-   <ul class="side-nav" id="mobile-demo">
+  <ul class="side-nav" id="mobile-demo">
       <li><a href="#about_header">About</a></li>
       <li><a href="#projects_header">Recent Work</a></li>
       <li><a href="#experience_header">Experience</a></li>
       <li><a href="#contact_header">Contact</a></li>
   </ul>
+   <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#projects_header">All Projects</a></li>
+    <li><a href="#get-out">Node.js/Express</a></li>
+    <li><a href="#househub">React/MongoDB</a></li>
+    <li class="divider"></li>
+    <li><a href="#waste">Front End JS</a></li>
+  </ul>
 	<div class="parallax-container">
     <div class="parallax img1"><img src="images/dune2bw.jpg" alt="sand">
     </div>
-    <div class="row">
-      <div class="col s12 offset-s1">
-        <h1 id="main-header">colin groark</h1></p> 
-        <h3 class="secondary-header">web developer<span class="header-cursor"> |</span></h3>
-      </div>
+      <div class="row">
+        <div class="col s12 offset-s1">
+          <h1 id="main-header">colin groark</h1></p> 
+          <h3 class="secondary-header">web developer<span class="header-cursor"> |</span></h3>
+        </div>
     </div>
     <div class="row header-icons">
       <a href="https://github.com/cgroark" target="blank">
-        <div class="git-img col s2 offset-s6">
+        <div class="git-img col s2 offset-s1">
         </div>
       </a>
       <a href="https://www.linkedin.com/in/colin-groark/" target="blank">
@@ -51,33 +61,31 @@
         </div>
       </a>
       <a href="#about_header">
-        <div class="arrow-img col s2">
+        <div class="arrow-img col s1 offset-s6">
         </div>
       </a>
     </div>
-
   </div>
   <div class="section-top" id="about_header"></div>
-
 	<div class="section about">
  		<div class="container">
         <div class="row">
           <div class="col s3">
-      		  <h2 class="section-header">about</h2>
+      		  <h2 class="section-header-about">about</h2>
           </div>
         </div>
     		<div class="row">
     				<div class="col s8">
     					<p id="about_text">I’m a full-stack web developer with experience untangling problems and developing efficient systems and tools for programs and teams in the private and non-profit sectors. Whether it’s building full-stack applications, or designing budget tracking systems, I look for opportunities to break-down complex problems and build elegant tools that help people seamlessly interact with the world around them. I want to collaborate with a driven team to craft innovative tools that offer a host of solutions to the complexities of everyday life.</p>
     				</div>
-    				<div class="col s4">
-    					<img class="z-depth-3" id="headshot" src="images/BW-Colin.jpg">
+    				<div class="col l4 s8">
+    					<img  class="responsive-img z-depth-3" id="headshot" src="images/BW-Colin.jpg">
     				</div>
     		</div>
         <div class="row">
-        <div class="col s2">
-              <h2 class="header_black" id="skills-header">skills</h2>
-        </div>
+          <div class="col s2">
+                <h2 class="header_black" id="skills-header">skills</h2>
+          </div>
         </div>
       	<div class="row">
             <div class="z-depth-3 col s12 skill_box">
@@ -148,6 +156,8 @@
         	<h2 class="section-header-projects">recent work</h2>
         </div>
       </div>
+            <div id="get-out"></div>
+
    <div class="project-background">
     <div class="row">
       <div class="col s12 l6">
@@ -201,10 +211,10 @@
                 </div>
               </a> -->
           </div>
+          <div id="househub"></div>
     </div>
 <!--   <div class="section-top" id="sort-it"></div>
  -->  
-
  <div class="project-background">
     <div class="row">
       <div class="col  s12 l6">
@@ -249,6 +259,7 @@
                 </div>
               </a> -->
           </div>
+          <div id="waste"></div>
     </div>
   
  <div class="project-background">
@@ -292,7 +303,7 @@
       </div>
   
 
-<div class="section-top" id="experience_header"></div>
+<div class="section-top-proj" id="experience_header"></div>
   </div>
   <div class="experience-image">
    	<div class="section-experience">
@@ -333,7 +344,7 @@
   <div class="section projects">
       <div class="row container">
         <div class="col s12">
-          <h2 class="section-header-projects">Contact</h2>
+          <h2 class="section-header-contact">Contact</h2>
         </div>
       </div>
    <div class="contact-background">
@@ -349,8 +360,7 @@
         </a>
       </div>
       <div class="col s2 offset-s2">
-        <a href="#" target="blank">
-          <div class="resume-img-contact"></div>
+        <object data="images/Groark_Colin_resume2018.pdf" type="application/x-pdf" title="SamplePdf" width="500" height="720"><a href="images/Groark_Colin_resume2018.pdf" target="blank"><div class="resume-img-contact"></div></a></object>
         </a>
       </div>
     </div>
@@ -358,6 +368,8 @@
   </div>
 </div>
   
+
+
 
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	

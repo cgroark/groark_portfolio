@@ -83,19 +83,25 @@
 	margin: 180px 0;
 	height: 71px;
 	width: 71px;
-	background-image: url("images/arrow.png");
+	background-image: url("images/arrow-grey-2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 .arrow-img:hover{
-	background-image: url("images/arrowblack.png");
+	background-image: url("images/arrow-grey.png");
 }
 .img-up{
 	height: 58px;
 	width: auto;
 	padding: 4px 0 0 14px;
 }
-
+.section-header-about{
+	color: #6AA9AD;
+	font-family: 'Prosto One', cursive;
+	font-size: 60px;
+	text-align: left;
+	margin: 20px 0 0 0;
+}
 .section-header{
 	color: #6AA9AD;
 	font-family: 'Prosto One', cursive;
@@ -108,7 +114,7 @@
 	font-family: 'Prosto One', cursive;
 	font-size: 60px;
 	text-align: center;
-	margin: 20px 0 -25px 0;
+	margin: 20px 0 -50px;
 }
 .header_black{
 	color: rgb(30,30,30);
@@ -119,12 +125,10 @@
 .section-top{
 	height: 49px;
 	border: none;
-	background-color: transparent;
-	z-index: -10;
+	background-color: white;
 }
 .section-top-contact{
-	height: 50px;
-	margin-top: -32px;
+	height: 1px;
 	border: none;
 	background-color: transparent;
 }
@@ -132,13 +136,14 @@
 	height: 50px;
 	margin-top: -32px;
 	border: none;
-	background-color: rgb(225,225,225);
-	z-index: -10;
-
+	background-color: white;
+}
+.section-top-proj{
+	height: 45px;
+	border: none;
+	background-color: rgb(50,50,50);
 }
 #headshot{
-	height: 200px;
-	width: auto;
 	border-radius: 4px;
 	margin-top: -30px;
 }
@@ -159,10 +164,12 @@
 }
 #skills-header{
 	margin: 0 0 -10px 0;
+	text-align: left;
 }
 .skill_box{
 	background-color: rgba(186,186,186,.2);
-	height: 160px;
+	width: 100%;
+	height: 100%;
 	text-align: left;
 	border-radius: 4px;
 	font-size: 8;
@@ -203,11 +210,7 @@
 	#main-header{
 		font-size: 80px;
 	}
-	#headshot{
-		height: 170px;
-		margin-top: 0px;
-	}
-
+	
 	.skill-icon{
 		width: 40px;
 	}
@@ -241,8 +244,6 @@ p{
 	background-color: white;
 }
 
-
-
 .projects{
 	background-color: rgb(50,50,50);
 	text-align: center;
@@ -257,7 +258,6 @@ p{
 	height: auto;
 	padding: 0;
 }
-
 #bootstrap{
 	margin-bottom: -10px;
 	width: 90px;
@@ -275,6 +275,15 @@ p{
 }
 .img-get{
 	border-radius: 2px;
+}
+#househub{
+	height: 50px;
+}
+#waste{
+	height: 50px;
+}
+#get-out{
+	height: 45px;
 }
 .project-image-waste{
 	background-image: url("images/waste2.png");
@@ -403,11 +412,18 @@ p{
 	list-style-type: circle !important;
 	text-align: center;
 }
+.section-header-contact{
+	color: #6AA9AD;
+	font-family: 'Prosto One', cursive;
+	font-size: 60px;
+	text-align: center;
+	margin: 4px 0 -20px 0;
+}
 .contact-background{
 	background-color: rgb(225,225,225);
 	margin: 4% 7%;
 	border-radius: 3px;
-	height: 320px;
+	height: 360px;
 	text-align: center;
 }
 .git-img-contact{
@@ -454,8 +470,8 @@ p{
 	background-color: rgb(180,180,180) !important;
 }
 .footer{
-	font-size: 16px;
-	bottom: 0;
+	font-size: 14px;
+	height: 20px;
 	text-align: center;
 	font-family: 'Prosto One', cursive;
 	color: rgb(25,25,25);
