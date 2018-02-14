@@ -427,19 +427,19 @@ p{
 	text-align: center;
 }
 .git-img-contact{
-	margin: 100px 0 0 14px;
-	height: 140px;
+	margin-top: 125px;
+	height: 190px !important;
 	width: auto;
 	background-image: url("images/githubwhite.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-
 }
 .git-img-contact:hover{
 	background-image: url("images/github.png");
 }
 .link-img-contact{
-	margin: 110px 0 0 24px;
+	margin-top: 125px;
+	margin-left: 20.833% !important;
 	height: 110px;
 	width: auto;
 	background-image: url("images/linkedinwhite.png");
@@ -450,7 +450,7 @@ p{
 	background-image: url("images/linkedin.png");
 }
 .resume-img-contact{
-	margin: 110px 0 0 24px;
+	margin-top: 125px;
 	height: 110px;
 	width: auto;
 	background-image: url("images/resumewhite.png");
@@ -462,9 +462,9 @@ p{
 }
 .contact{
 	height: 80px;
-	text-align: center;
 	font-family: 'Prosto One', cursive;
 	color: #6AA9AD;
+	text-align: center;
 }
 .page-footer{
 	background-color: rgb(180,180,180) !important;
