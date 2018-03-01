@@ -5,7 +5,7 @@
 	<title>Colin Groark</title>
 	<style href="style.css" type="text/css"></style>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Baumans|Cuprum|Prosto+One|Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baumans|Cuprum|Prosto+One|Ubuntu|Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -36,16 +36,16 @@
       <li><a href="#contact_header">Contact</a></li>
   </ul>
    <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#projects_header">All Projects</a></li>
+    <li><a class="dropdown" href="#projects_header">All Projects</a></li>
         <li class="divider"></li>
-    <li><a href="#get-out">Node.js/Express</a></li>
+    <li class="dropdown"><a class="dropdown" href="#get-out">Node.js/Express</a></li>
         <li class="divider"></li>
-    <li><a href="#househub">React/MongoDB</a></li>
+    <li class="dropdown"><a class="dropdown" href="#househub">React/MongoDB</a></li>
         <li class="divider"></li>
-    <li><a href="#waste">Front End JS</a></li>
+    <li class="dropdown"><a class="dropdown" href="#waste">Front End JS</a></li>
   </ul>
 	<div class="parallax-container">
-    <div class="parallax img1"><img src="images/dune2bw.jpg" alt="sand">
+    <div class="parallax img1"><img src="images/back4.jpg" alt="sand">
     </div>
       <div class="row">
         <div class="col s12 offset-s1">
@@ -55,15 +55,15 @@
     </div>
     <div class="row">
       <a href="https://github.com/cgroark" target="blank">
-        <div class="git-img col s2 offset-s1">
+        <div class="git-img col s1 offset-s1">
         </div>
       </a>
       <a href="https://www.linkedin.com/in/colin-groark/" target="blank">
-        <div class="link-img col s2">
+        <div class="link-img col s1">
         </div>
       </a>
       <a href="#about_header">
-        <div class="arrow-img col s1 offset-s6">
+        <div class="arrow-img col s1 offset-s7">
         </div>
       </a>
     </div>
@@ -173,7 +173,6 @@
                 <p>Search for National Parks by state, save your favorite parks, see location and real-time weather forecast</p>
                 <p>RESTful APIs: National Park Service, Google Maps, Weather Underground</p>
                 <p>Deployed with Heroku</p>
-                <p class="project-text">Heroku livesite login credentials: email - sample@testing.com; password: sample</p> 
           </div>
           <div class="row">
             <div class="col s6">
@@ -192,7 +191,7 @@
         </div>
 
           <div class="col s8 offset-s2 l6 project-column-left"">
-            <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank"><img class="img-get responsive-img z-depth-3" src="images/getout1.png"></a>
+            <a href="https://get-out-there-parksweather.herokuapp.com/" target="blank"><img class="img-get responsive-img z-depth-3" src="images/getout2.png"></a>
               <div class="icon-container">
                 <div class="row">
                   <div class="icon col s3">
@@ -246,7 +245,6 @@
             <p>Create a house profile with roommates. Assign and track chores and pantry items, post memos to house board, and track house bills</p>
             <p>Created in partnership with Taylor Darneille and Peter Barbarone</p>
             <p>Deployed with Heroku</p>
-            <p class="project-text">Heroku livesite login credentials: email - sample@testing.com; password: sample</p>
           </div>
             <div class="row">
             <div class="col s6">
@@ -361,27 +359,31 @@
   			</div>
   			<div class="row exp-row">
   				<div class="col l4 s8 offset-s2 experience-column" >
-  					<h3 class="exp_header">web development</h3>
+  					<h3 class="exp_header"> full stack web development</h3>
               <ul class="exp-list">
-                <li class="exp-each">Working with cross-functional teams of developers and designers to bring week-long and quick turnaround projects to fruition</li>
-                <li class="exp-each">Building projects with RESTful APIs and technologies such as React, MongoDB, PostreSQL, Node.js, JQuery, Python, Django JavaScript, HTML and CSS</li>
+                <li class="exp-each">Collaboration with UX design teams</li>
+                <li class="exp-each">Use and understadning of RESTful APIs</li>
+                <li class="exp-each">Projects utlizing React, MongoDB, PostreSQL, Node.js, Express, JQuery, Python, Django JavaScript, HTML, CSS</li>
+                <li class="exp-each">Experience with Materialize, Bootstrap, CSS Grid, Chart.js</li>
+
                
   					</ul>
   				</div>
   				<div class="col l4 s8 offset-s2 experience-column">
       			<h3 class="exp_header">project management</h3>
       				<ul class="exp-list">
-                <li class="exp-each">Developing and managing $900K budget</li>
-                <li class="exp-each">Building efficient systems to track projects budgets and evaluate results</li>
-                <li class="exp-each">Overseeing diverse program portfolio and 11 person technical education team</li> 
-                <li class="exp-each">Leading $500K annual program for Seattle Public Utiliies</li>
+                <li class="exp-each">Program and budget management</li>
+                <li class="exp-each">Budget and metric too development </li>
+                <li class="exp-each">Technical team oversight and staff management</li> 
+                <li class="exp-each">Management of technical multi-year public contracts</li>
               </ul>
       		</div>
       		<div class="col l4 s8 offset-s2 experience-column">
       			<h3 class="exp_header">business development</h3>
               <ul class="exp-list">
-                  <li class="exp-each">Sucessfully leading strategy and proposal writing for local, state and federal grants and contracts</li>
-                  <li class="exp-each">Coordinating diverse technical teams to secure more than 100 local, state and federal contracts for public sector consulting firms</li> 
+                  <li class="exp-each">Lead proposal development for local, state and federal grants and contracts</li>
+                  <li class="exp-each">Coordinate diverse technical teams to secure more than 100 public contracts for consulting firms</li> 
+                  <li class="exp-each">Tracking system development and database management</li> 
               </ul>
       		</div>
   		 	</div>
@@ -397,7 +399,7 @@
       </div>
    <div class="contact-background">
     <div class="row">
-      <p class="contact">colingroark@gmail.com</p>
+      <a class="contact" href="mailto:colingroark@gmail.com">colingroark@gmail.com</a>
       <hr>
       <div class="icon-row">
       <a href="https://github.com/cgroark" target="blank">
@@ -406,8 +408,8 @@
       <a href="https://www.linkedin.com/in/colin-groark/" target="blank">
         <div class="link-img-contact col s2 offset-s2"></div>
       </a>
-        <a href="images/groark-colin-2018-resume.pdf" target="blank">
-          <div class="resume-img-contact col s2 offset-s2"></div>
+        <a href="mailto:colingroark@gmail.com">
+          <div class="email-img-contact col s2 offset-s2"></div>
         </a>
       </div>
     </div>

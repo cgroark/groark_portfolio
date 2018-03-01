@@ -1,11 +1,11 @@
 .nav-wrapper{
-	background-color: #6AA9AD;
+	background-color: rgb(30,30,30);
 }
 .nav-header{
-	color: rgb(50,50,50);
-	font-family: 'Prosto One', cursive;
-	font-size: 22px;
-	margin-right: 20px;
+	color: rgb(230,230,230);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-right: 10px;
 }
 .nav-header:hover{
 	color: #F07A80;
@@ -13,11 +13,14 @@
 }
 #main-header{
 	color: rgb(20,20,20);
-	font-family: 'Baumans', cursive;
+font-family: 'Montserrat', sans-serif;
 	font-size: 102px;
 	font-weight: 900;
 }
-
+.dropdown{
+	color: black !important;
+	font-size: 12px;
+}
 
 .secondary-header{
 	color: rgb(50,50,50);
@@ -25,7 +28,7 @@
 	font-size: 48px;
 	white-space: nowrap;
   	overflow: hidden;
-	font-family: 'Prosto One', cursive;
+	font-family: 'Montserrat', sans-serif;
 	width: 30em;
   	animation: type 4s steps(60, end); 
 }
@@ -41,7 +44,7 @@
 
 .experience-image{
 	height: 100%;
-	background-image: url("images/dune1bw.jpg");
+	background-image: url("images/back.jpg");
 	background-size: cover;
 	padding: 5% 0;
 }
@@ -83,12 +86,12 @@
 	margin: 180px 0;
 	height: 71px;
 	width: 71px;
-	background-image: url("images/arrow-grey-2.png");
+	background-image: url("images/arrowblackdown.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 .arrow-img:hover{
-	background-image: url("images/arrow-grey.png");
+	background-image: url("images/arrowdowncircle.png");
 }
 .img-up{
 	margin-top: 8px;
@@ -97,31 +100,30 @@
 	padding: 4px 0 0 14px;
 }
 .section-header-about{
-	color: #6AA9AD;
-	font-family: 'Prosto One', cursive;
+	color: rgb(30,30,30);
+	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	text-align: left;
 	margin: 20px 0 0 0;
 }
 .section-header{
-	color: #6AA9AD;
-	font-family: 'Prosto One', cursive;
+	color: rgb(30,30,30);
+	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	text-align: center;
 	margin: 20px 0 0 0;
 }
 .section-header-projects{
-	color: #6AA9AD;
-	font-family: 'Prosto One', cursive;
+	color: rgb(230,230,230);
+	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	text-align: center;
 	margin: 20px 0 -50px;
 }
 .header_black{
 	color: rgb(30,30,30);
-	font-family: 'Prosto One', cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 44px;
-
 }
 .section-top{
 	height: 49px;
@@ -150,14 +152,14 @@
 	margin-top: -30px;
 }
 .skills-header-front{
-	color: #F07A80;
+	color: rgb(30,30,30);
 	font-family: 'Cuprum', sans-serif;
 	font-size: 34px;
 	font-weight: 800;
 	margin: 13px 0 0 24px;
 }
 .skills-header-back{
-	color: #F07A80;
+	color: rgb(30,30,30);
 	font-family: 'Cuprum', sans-serif;
 	font-size: 34px;
 	font-weight: 800;
@@ -176,13 +178,13 @@
 	border-radius: 4px;
 	font-size: 8;
 	letter-spacing: 5px;
-	border: black solid;
+	border: #F07A80 solid;
 }
 .skills-front{
 	margin-top: 30px;
 }
 .skill_box:hover{
-	border: #F07A80 solid;
+	color: #F07A80;
 }
 .skill-name{
 	margin-top: 3px;
@@ -339,12 +341,12 @@ p{
 .project-background{
 	background-color: white;
 	margin: 2% 7%;
-	border-radius: 3px;
+	border-radius: 1px;
 	height: 100%;
 }
 .project_header{
 	color: rgb(50,50,50);
-	font-family:'Baumans', cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 42px;
 	font-weight: 800;
 	margin-bottom: -5px;
@@ -447,7 +449,7 @@ p{
 
 .exp_header{
 	color: rgb(50,50,50);
-	font-family:'Prosto One', cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: 800;
 	text-align: center;
@@ -460,8 +462,8 @@ p{
 
 }
 .section-header-contact{
-	color: #6AA9AD;
-	font-family: 'Prosto One', cursive;
+	color: rgb(230,230,230);
+	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	text-align: center;
 	margin: 4px 0 -20px 0;
@@ -500,23 +502,29 @@ p{
 .link-img-contact:hover{
 	background-image: url("images/linkedin.png");
 }
-.resume-img-contact{
+.email-img-contact{
 	margin: 35px auto;
 	height: 180px;
 	width: 180px;
-	background-image: url("images/resumewhite.png");
+	background-image: url("images/emailw.png");
 	background-size: 60%;
 	background-repeat: no-repeat;
 }
-.resume-img-contact:hover{
-	background-image: url("images/resume.png");
+.email-img-contact:hover{
+	background-image: url("images/emailb.png");
 }
 .contact{
 	font-size: 30px;
-	font-family: 'Prosto One', cursive;
-	color: #6AA9AD;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(30,30,30);	
 	width: 100%;
+	margin: 20px 0;
 	display: inline-block;
+}
+.contact:hover{
+	color: #6AA9AD;
+	
+	;
 }
 .icon-row{
 	margin-left: 6%;
