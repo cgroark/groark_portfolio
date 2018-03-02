@@ -13,10 +13,9 @@
 <body>
   
   <div class="navbar-fixed" id="navbar">
-
   	<nav>
 	    <div class="nav-wrapper nav-color">
-          <a href="#navbar"><img class="img-up" src="images/arrowup.png"></a>
+          <a id="icon-cg" href="#navbar">cg</a>
 	     	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      		<ul class="right hide-on-med-and-down">
 			        <li><a class="nav-header" href="#about_header">about</a></li>
@@ -30,10 +29,21 @@
 	 </nav>
   </div>
   <ul class="side-nav" id="mobile-demo">
-      <li><a href="#about_header">About</a></li>
-      <li><a href="#projects_header">Recent Work</a></li>
-      <li><a href="#experience_header">Experience</a></li>
-      <li><a href="#contact_header">Contact</a></li>
+            <li class="divider"></li>
+
+      <li><a class="ham-menu" href="#about_header">about</a></li>
+              <li class="divider"></li>
+
+      <li><a class="ham-menu" href="#projects_header">recent work</a></li>
+              <li class="divider"></li>
+
+      <li><a class="ham-menu" href="#experience_header">experience</a></li>
+              <li class="divider"></li>
+
+      <li><a class="ham-menu" href="#contact_header">contact</a></li>
+              <li class="divider"></li>
+
+       <li><a class="ham-menu" href="images/groark-colin-2018-resume.pdf" target="blank">resume</a></li>
   </ul>
    <ul id="dropdown1" class="dropdown-content">
     <li><a class="dropdown" href="#projects_header">All Projects</a></li>

@@ -11,6 +11,22 @@
 	color: #F07A80;
 
 }
+.side-nav{
+	height: 300px !important;
+}
+.ham-menu{
+	font-size: 24px !important;
+}
+#icon-cg{
+	font-size: 24px;
+	color: rgb(230,230,230);
+	margin-left: 24px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#icon-cg:hover{
+color: #F07A80;
+}
 #main-header{
 	color: rgb(20,20,20);
 font-family: 'Montserrat', sans-serif;
