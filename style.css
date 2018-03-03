@@ -22,7 +22,6 @@
 	color: rgb(230,230,230);
 	margin-left: 24px;
 	font-family: 'Montserrat', sans-serif;
-
 }
 #icon-cg:hover{
 color: #F07A80;
@@ -165,7 +164,7 @@ font-family: 'Montserrat', sans-serif;
 }
 #headshot{
 	border-radius: 4px;
-	margin-top: -30px;
+	margin-top: -4px;
 }
 .skills-header-front{
 	color: rgb(30,30,30);
@@ -426,42 +425,7 @@ p{
 .icon-container-waste{
 	margin-top: 40px;
 }
-@media (max-width: 992px){
-	#main-header{
-		font-size: 80px;
-	}
-	#headshot{
-		height: 170px;
-		margin-top: 0px;
-	}
-	#about_text{
-		font-size: 20px;
-	}
-	.skill-icon{
-		width: 40px;
-	}
-	#django{
-		width: 55px;
-	}
-	#html1{
-		width: 44px;
-	}
-	.skills-header-front, .skills-header-back{
-		font-size: 22px;
-	}
-	.skill-name{
-		font-size: 12px;
-	}
-	li{
-		font-size: 20px;
-	}
-	p{
-		font-size: 20px;
-	}
-	.project-image-link{
-		margin-bottom: 0px;
-	}
-}
+
 
 .exp_header{
 	color: rgb(50,50,50);
@@ -548,16 +512,68 @@ p{
 .page-footer{
 	background-color: rgb(180,180,180) !important;
 }
-.footer{
-	font-size: 14px;
-	height: 20px;
-	text-align: center;
-	font-family: 'Prosto One', cursive;
-	color: rgb(25,25,25);
-}
 body{
 	background-color: rgb(180,180,180) !important;
 }
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   padding-bottom:50px;   /* Height of the footer */
+}
+
+/*footer*/
+
+footer {
+   	width:100%;
+   	height:50px;  
+	position:absolute;
+	text-transform: uppercase;
+	padding: 4px 16px;
+	background-color: rgb(35, 40, 34);
+	font-size: 14px;
+	letter-spacing: .09em;
+	font-weight: 900;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.copyright {
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	color: white;
+}
+.message {
+	font-family: 'Montserrat', sans-serif;
+	float: right;
+	color: white;
+}
+.name {
+	color: #F15B31;
+	font-weight: 1000;
+}
+
 .resume{
 	height: 100% !important;
 	width: auto;
@@ -570,4 +586,40 @@ hr{
     position: relative;
     overflow: hidden;
     height: 630px !important;
+}
+@media (max-width: 992px){
+	#main-header{
+		font-size: 80px;
+	}
+	#headshot{
+		height: 170px;
+		margin-top: 0px;
+	}
+	#about_text{
+		font-size: 20px;
+	}
+	.skill-icon{
+		width: 40px;
+	}
+	#django{
+		width: 55px;
+	}
+	#html1{
+		width: 44px;
+	}
+	.skills-header-front, .skills-header-back{
+		font-size: 22px;
+	}
+	.skill-name{
+		font-size: 12px;
+	}
+	li{
+		font-size: 20px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.project-image-link{
+		margin-bottom: 0px;
+	}
 }
