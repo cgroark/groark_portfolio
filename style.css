@@ -147,7 +147,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .section-top-contact{
 	height: 1px;
-	margin-top: 80px;
+	margin-top: 110px;
 	border: none;
 	background-color: transparent;
 }
@@ -492,6 +492,10 @@ p{
 }
 .email-img-contact:hover{
 	background-image: url("images/emailb.png");
+}
+.contact-div{
+	background-color: rgb(80,90,90);
+	height: 550px;
 }
 .contact{
 	font-size: 30px;
