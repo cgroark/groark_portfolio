@@ -81,7 +81,7 @@
         </div>
     		<div class="row">
   				<div class="col l8 s8">
-  					<p id="about_text">I'm a full-stack web developer with experience untangling problems and developing efficient systems and tools in the private and non-profit sectors. Working with diverse teams of developers and UX designers, I’ve applied my experience with front end and back end technologies to build responsive websites and projects that provide a seamless interaction for users. In addition to my firm grasp of technologies from React and JavaScript to PostgreSQL and Node.js, I have significant experience managing programs, teams, budgets and business development processes for public-facing organizations. When I'm not writing code, you'll find me on my bike or in the Cascades.</p>
+  					<span id="top-about">I'm a full-stack web developer with experience untangling problems and developing efficient systems and tools in the private and non-profit sectors. </span><span id="about_text">Working with diverse teams of developers and UX designers, I’ve applied my experience with front end and back end technologies to build responsive websites and projects that provide a seamless interaction for users. In addition to my firm grasp of technologies from React and JavaScript to PostgreSQL and Node.js, I have significant experience managing programs, teams, budgets and business development processes for public-facing organizations. When I'm not writing code, you'll find me on my bike or in the Cascades.</span>
   				</div>
   				<div class="col l4 s4">
   					<img  class="responsive-img z-depth-3" id="headshot" src="images/BW-Colin.jpg">
@@ -92,11 +92,9 @@
             <h2 class="header_black" id="skills-header">skills</h2>
           </div>
         </div>
-      	<div class="row">
-          <div class="z-depth-3 col s12 skill_box">
       				<div class="row skills-front">
                 <div class="col s2">           
-                  <h4 class="skills-header-front">front end:</h4>  
+                  <h4 class="skills-header-each">front end:</h4>  
                 </div> 
                 <div class="icon col s2">
 	      					<img class="skill-icon" src="images/react.png">
@@ -118,12 +116,11 @@
                   <img id="html1" class="skill-icon" src="images/html5.png">
                   <p class="skill-name">HTML</p>
                 </div>
-      				</div>
-      		  </div>
           </div>
-          <div class="row">
-            <div class="z-depth-3 col s12 skill_box">
               <div class="row skills-front">
+                <div class="col s2">           
+                  <h4 class="skills-header-each">back end:</h4>  
+                </div> 
                 <div class="icon col s2">
                   <img class="skill-icon" src="images/python.png">
                   <p class="skill-name">Python</p>
@@ -140,14 +137,7 @@
                   <img class="skill-icon" src="images/mongo.png">
                   <p class="skill-name">MongoDB</p>
                 </div> 
-                 <div class="icon col s2">
-                  <img class="skill-icon" id="django" src="images/django.png">
-                </div>
-                <div class="col s2">           
-                  <h4 class="skills-header-back">:back end</h4>  
-                </div> 
-              </div>
-            </div>
+              
           </div>
       </div>
  		</div>
@@ -171,53 +161,26 @@
           <div class="project-column-right z-depth-3 project-description">
                 <p class="project-overview">Full-stack Node.js/Express web application</p>
                 <p>Track, log and chart carbon emissions of trips travelled based on distance and mode of transport</p>
+                <p class="proj-tech">Technologies:<br> Node.js/Express, PostgreSQL, Sequelize, RESTful API, JavaScript, JQuery, HTML5, CSS3, Bootstrap</p>
                 <p>RESTful API: Google Maps</p>
                 <p>Deployed with Heroku</p>
-          </div>
-          <div class="row">
-            <div class="col s6">
-              <a class="a-tag-icon" href="https://github.com/cgroark/carbon-commuter" target="_blank">
-                <div class="project-link-img"></div>
-              </a>
-              <p class="link-name">GitHub Repo</p>
-            </div>
-            <div class="col s6">
-              <a href="https://carbon-commute.herokuapp.com/" target="_blank">
-                <div class="live-link-img"></div>
-              </a>
-              <p class="link-name">Live Site</p>
-            </div>
           </div>
         </div>
         <div class="col s8 offset-s2 l6 project-column-left"">
         <a href="https://carbon-commute.herokuapp.com/" target="_blank"><img class="img-get responsive-img z-depth-3" src="images/commute3.png"></a>
             <div class="icon-container">
               <div class="row">
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/postgresql.png">
+                <div class="icon col s6">
+                  <a href="https://carbon-commute.herokuapp.com/" target="_blank">
+                <div class="live-link-img"></div>
+              </a>
+              <p class="link-name">Live Site</p>
                 </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/nodejs.png">
-                </div> 
-                <div class="icon col s3">
-                  <img id="js" class="project-icon" src="images/js.png">
-                </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" id="restful" src="images/restful.png">
-                </div> 
-              </div>
-              <div class="row">
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/jquery.png">
-                </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/css3.png">
-                </div> 
-                <div class="icon col s3">
-                  <img id="html" class="project-icon" src="images/html5.png">
-                </div>
-                <div class="icon col s3">
-                  <img class="project-icon" id="bootstrap" src="images/bootstrap.png">
+                <div class="icon col s6">
+                  <a class="a-tag-icon" href="https://github.com/cgroark/carbon-commuter" target="_blank">
+                <div class="project-link-img"></div>
+              </a>
+              <p class="link-name">GitHub Repo</p>
                 </div> 
               </div>
             </div>
@@ -236,21 +199,16 @@
           <div class="project-column-right z-depth-3 project-description">
                 <p class="project-overview">Full-stack Node.js/Express web application</p>
                 <p>Search for National Parks by state, save your favorite parks, see location and real-time weather forecast</p>
+                <p class="proj-tech">Technologies:<br> Node.js/Express, PostgreSQL, Sequelize, RESTful API, JavaScript, JQuery, HTML5, CSS3, Bootstrap</p>
                 <p>RESTful APIs: National Park Service, Google Maps, Weather Underground</p>
                 <p>Deployed with Heroku</p>
           </div>
           <div class="row">
             <div class="col s6">
-              <a class="a-tag-icon" href="https://github.com/cgroark/project2" target="_blank">
-                <div class="project-link-img"></div>
-              </a>
-              <p class="link-name">GitHub Repo</p>
+              
             </div>
             <div class="col s6">
-              <a href="https://get-out-there-parksweather.herokuapp.com/" target="_blank">
-                <div class="live-link-img"></div>
-              </a>
-              <p class="link-name">Live Site</p>
+              
             </div>
           </div>
         </div>
@@ -258,33 +216,23 @@
             <a href="https://get-out-there-parksweather.herokuapp.com/" target="_blank"><img class="img-get responsive-img z-depth-3" src="images/getOut3.png"></a>
             <div class="icon-container">
               <div class="row">
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/postgresql.png">
+                <div class="icon col s6">
+                  <a class="a-tag-icon" href="https://github.com/cgroark/project2" target="_blank">
+                  <div class="project-link-img"></div>
+                  </a>
+                   <p class="link-name">GitHub Repo</p>
                 </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/nodejs.png">
+                <div class="icon col s6">
+                  <a href="https://get-out-there-parksweather.herokuapp.com/" target="_blank">
+                  <div class="live-link-img"></div>
+                  </a>
+                  <p class="link-name">Live Site</p>
                 </div> 
-                <div class="icon col s3">
-                  <img id="js" class="project-icon" src="images/js.png">
-                </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" id="restful" src="images/restful.png">
-                </div> 
+                
+
               </div>
-              <div class="row">
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/jquery.png">
-                </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/css3.png">
-                </div> 
-                <div class="icon col s3">
-                  <img id="html" class="project-icon" src="images/html5.png">
-                </div>
-                <div class="icon col s3">
-                  <img class="project-icon" id="bootstrap" src="images/bootstrap.png">
-                </div> 
-              </div>
+              
+
             </div>
           </div>
         </div>
@@ -301,46 +249,34 @@
         <div class="project-column-right z-depth-3 project-description">
             <p class="project-overview">Full-stack React/MongoDB web application </p>
             <p>Create a house profile with roommates. Assign and track chores and pantry items, post memos to house board, and track house bills</p>
+             <p class="proj-tech">Technologies:<br> React, MongoDB, Mongoose, JavaScript, HTML5, CSS3, CSS Grid</p>
             <p>Created in partnership with Taylor Darneille and Peter Barbarone</p>
             <p>Deployed with Heroku</p>
         </div>
-          <div class="row">
-            <div class="col s6">
-              <a class="a-tag-icon" href="https://github.com/cgroark/mern-hackathon" target="_blank">
-                <div class="project-link-img"></div>
-              </a>
-              <p class="link-name">GitHub Repo</p>
-            </div>
-            <div class="col s6">
-              <a href="https://tpcc.herokuapp.com/" target="_blank">
-                <div class="live-link-img"></div>
-              </a>
-              <p class="link-name">Live Site</p>
-            </div>
-          </div>
+          
+
           </div>
           <div class="col s8 offset-s2 l6 project-column-left"">
             <a href="https://tpcc.herokuapp.com/" target="_blank"><img class="img-get responsive-img z-depth-3" src="images/househub.png"></a>
               <div class="icon-container">
                   <div class="row">
-                    <div class="icon col s4">
-                      <img class="project-icon" src="images/react.png">
-                    </div> 
-                    <div class="icon col s4">
-                      <img id="mongodb" class="project-icon" src="images/mongoDB.png">
-                    </div> 
-                    <div class="icon col s4">
-                      <img id="js" class="project-icon" src="images/js.png">
-                    </div> 
-                  </div>
-                  <div class="row">
                     <div class="icon col s6">
-                      <img class="project-icon" src="images/css3.png">
+                      <a class="a-tag-icon" href="https://github.com/cgroark/mern-hackathon" target="_blank">
+                      <div class="project-link-img"></div>
+                      </a>
+                      <p class="link-name">GitHub Repo</p>
                     </div> 
                     <div class="icon col s6">
-                      <img id="html" class="project-icon" src="images/html5.png">
-                    </div>
+                      <a href="https://tpcc.herokuapp.com/" target="_blank">
+                      <div class="live-link-img"></div>
+                      </a>
+                      <p class="link-name">Live Site</p>
+                    </div> 
+                    
+
                   </div>
+                  
+
                 </div>
               </div>
           </div>
@@ -357,21 +293,15 @@
           <div class="project-column-right z-depth-3 project-description">
                 <p class="project-overview">Drag and drop educational game</p>
                 <p>Race a timer and score points when sorting trash, compost and recylable objects correctly</p>
-                <p>Built with JavaScript, JQuery, HTML5, CSS3 and CSS Animate animation librbary</p>
+                <p class="proj-tech">Technologies:<br> JavaScript, JQuery, HTML5, CSS3, CSS Animate library</p>
                 <p>Deployed with GitHub Pages</p>
           </div>
            <div class="row">
             <div class="col s6">
-              <a class="a-tag-icon" href="https://github.com/cgroark/game-waste" target="_blank">
-                <div class="project-link-img"></div>
-              </a>
-              <p class="link-name">GitHub Repo</p>
+              
             </div>
             <div class="col s6">
-              <a href="https://cgroark.github.io/game-waste/" target="_blank">
-                <div class="live-link-img"></div>
-              </a>
-              <p class="link-name">Live Site</p>
+              
             </div>
           </div>
         </div>
@@ -379,18 +309,21 @@
             <a href="https://cgroark.github.io/game-waste/" target="_blank"><img class="img-get responsive-img z-depth-3" src="images/waste1.png"></a>
             <div class="icon-container-waste">
               <div class="row">
-                <div class="icon col s3">
-                  <img id="js" class="project-icon" src="images/js.png">
+                <div class="icon col s6">
+                  <a class="a-tag-icon" href="https://github.com/cgroark/game-waste" target="_blank">
+                <div class="project-link-img"></div>
+              </a>
+              <p class="link-name">GitHub Repo</p>
+
                 </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/jquery.png">
+                <div class="icon col s6">
+<a href="https://cgroark.github.io/game-waste/" target="_blank">
+                <div class="live-link-img"></div>
+              </a>
+              <p class="link-name">Live Site</p>
                 </div> 
-                <div class="icon col s3">
-                  <img class="project-icon" src="images/css3.png">
-                </div> 
-                <div class="icon col s3">
-                  <img id="html" class="project-icon" src="images/html5.png">
-                </div>
+                
+
               </div>
             </div>
           </div>
@@ -409,7 +342,7 @@
   					<h3 class="exp_header"> full stack web development</h3>
               <ul class="exp-list">
                 <li class="exp-each">Collaboration with UX design teams</li>
-                <li class="exp-each">Use and understadning of RESTful APIs</li>
+                <li class="exp-each">Use and understanding of RESTful APIs</li>
                 <li class="exp-each">Projects utlizing React, MongoDB, PostreSQL, Node.js, Express, JQuery, Python, Django JavaScript, HTML, CSS</li>
                 <li class="exp-each">Experience with Materialize, Bootstrap, CSS Grid, Chart.js</li> 
   					</ul>
@@ -439,7 +372,7 @@
   <div class="section contact-div">
       <div class="row container">
         <div class="col s12">
-          <h2 class="section-header-contact">Contact</h2>
+          <h2 class="section-header-contact">contact</h2>
         </div>
       </div>
    <div class="contact-background">

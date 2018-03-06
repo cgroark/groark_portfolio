@@ -8,7 +8,7 @@
 	margin-right: 10px;
 }
 .nav-header:hover{
-	color: #F07A80;
+	color: #6AA9AD;
 
 }
 .side-nav{
@@ -24,7 +24,7 @@
 	font-family: 'Montserrat', sans-serif;
 }
 #icon-cg:hover{
-color: #F07A80;
+color: #6AA9AD;
 }
 #main-header{
 	color: rgb(20,20,20);
@@ -166,43 +166,29 @@ font-family: 'Montserrat', sans-serif;
 	border-radius: 4px;
 	margin-top: -4px;
 }
-.skills-header-front{
+
+.skills-header-each{
 	color: rgb(30,30,30);
 	font-family: 'Cuprum', sans-serif;
-	font-size: 34px;
-	font-weight: 800;
-	margin: 13px 0 0 24px;
-}
-.skills-header-back{
-	color: rgb(30,30,30);
-	font-family: 'Cuprum', sans-serif;
-	font-size: 34px;
-	font-weight: 800;
-	margin: 13px 24px 0 0;
-	text-align: right;
+	font-size: 38px;
+	margin: 13px 0 0 0;
+	text-align: left;
 }
 #skills-header{
 	margin: 0 0 -10px 0;
 	text-align: left;
 }
-.skill_box{
-	background-color: rgba(186,186,186,.2);
-	width: 100%;
-	height: 100%;
-	text-align: left;
-	border-radius: 4px;
-	font-size: 8;
-	letter-spacing: 5px;
-	border: #F07A80 solid;
-}
+
 .skills-front{
 	margin-top: 30px;
+
+
 }
-.skill_box:hover{
-	color: #F07A80;
-}
+
 .skill-name{
 	margin-top: 3px;
+	font-size: 8;
+	letter-spacing: 5px;
 }
 
 .skill-icon{
@@ -255,8 +241,15 @@ p{
 	font-family: 'Ubuntu', sans-serif;
 
 }
+span{
+	font-family: 'Ubuntu', sans-serif;
+
+}
 #about_text{
 	margin-top: -6px;
+}
+#top-about{
+	font-size: 20px;
 }
 .about{
 	background-color: white;
@@ -358,7 +351,7 @@ p{
 	text-align: center;
 }
 .project_header:hover{
-	color: #F07A80;
+	color: #6AA9AD;
 }
 .project-description{
 	margin-bottom: 30px;
@@ -367,8 +360,9 @@ p{
     border-radius: 2px;
     border: solid 3px #6AA9AD;
 }
-.project-description:hover{
-   	border: 3px #F07A80 solid;
+
+.proj-tech{
+	font-size: 16px;
 }
 .project-overview{
 	font-size: 18px;
@@ -385,6 +379,9 @@ p{
 }
 .project-text{
 	margin-top: 0;
+}
+.img-get:hover{
+	transform: scale(1.05);
 }
 
 .down-button{
@@ -429,17 +426,17 @@ p{
 
 }
 .section-header-contact{
-	color: rgb(230,230,230);
+	color: rgb(30,30,30);
 	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	text-align: center;
-	margin: 4px 0 -20px 0;
+	margin: 24px 0 -20px 0;
 }
 .contact-background{
-	background-color: rgb(225,225,225);
+	background-color: white;
 	margin: 4% 7%;
 	border-radius: 3px;
-	height: 310px;
+	height: 110px;
 	text-align: center;
 }
 .git-img-contact{
@@ -480,8 +477,8 @@ p{
 	background-image: url("images/emailb.png");
 }
 .contact-div{
-	background-color: rgb(80,90,90);
-	height: 612px;
+	background-color: white;
+	height: 510px;
 }
 .contact{
 	font-size: 30px;
@@ -493,8 +490,6 @@ p{
 }
 .contact:hover{
 	color: #6AA9AD;
-	
-	;
 }
 .icon-row{
 	margin-left: 6%;
@@ -560,7 +555,7 @@ footer {
 	color: white;
 }
 .name {
-	color: rgb(75, 178, 237);
+	color: #6AA9AD;
 	font-weight: 1000;
 }
 
@@ -597,7 +592,7 @@ hr{
 	#html1{
 		width: 44px;
 	}
-	.skills-header-front, .skills-header-back{
+	.skills-header-each{
 		font-size: 22px;
 	}
 	.skill-name{
