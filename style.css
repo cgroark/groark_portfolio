@@ -415,8 +415,6 @@ p{
 .icon-container-waste{
 	margin-top: 40px;
 }
-
-
 .exp_header{
 	color: rgb(50,50,50);
 	font-family: 'Montserrat', sans-serif;
@@ -424,7 +422,6 @@ p{
 	font-weight: 800;
 	text-align: center;
 }
-
 .exp-each{
 	list-style: circle !important;
 	text-align: left;
@@ -445,7 +442,6 @@ p{
 	height: 310px;
 	text-align: center;
 }
-
 .git-img-contact{
 	margin: 20px auto;
 	margin-right;
@@ -485,7 +481,7 @@ p{
 }
 .contact-div{
 	background-color: rgb(80,90,90);
-	height: 610px;
+	height: 612px;
 }
 .contact{
 	font-size: 30px;
