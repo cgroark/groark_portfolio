@@ -163,7 +163,6 @@ font-family: 'Montserrat', sans-serif;
 	background-color: rgb(50,50,50);
 }
 #headshot{
-	border-radius: 4px;
 	margin-top: -4px;
 }
 
@@ -239,10 +238,12 @@ h3.header_top{
 }
 p{
 	font-family: 'Ubuntu', sans-serif;
+	color: rgb(50,50,50);
 
 }
 span{
 	font-family: 'Ubuntu', sans-serif;
+	color: rgb(50,50,50);
 
 }
 #about_text{
@@ -350,24 +351,24 @@ span{
 	margin-bottom: -5px;
 	text-align: center;
 }
-.project_header:hover{
-	color: #6AA9AD;
-}
+
 .project-description{
-	margin-bottom: 30px;
-	padding: 16px 18px;
+	padding: 0 12px 0 0;
     background-color: white;
-    border-radius: 2px;
-    border: solid 3px #6AA9AD;
+    text-align: left;
+  /*  border-radius: 2px;
+    border: solid 3px #6AA9AD;*/
 }
 
 .proj-tech{
 	font-size: 16px;
+	color: rgb(50,50,50);
 }
 .project-overview{
 	font-size: 18px;
 	font-weight: 800;
 	margin-bottom: -12px;
+	color: rgb(50,50,50)
 }
 .project-link{
 	font-size: 16px;
@@ -379,6 +380,9 @@ span{
 }
 .project-text{
 	margin-top: 0;
+}
+.img-get{
+	margin-top: 20px;
 }
 .img-get:hover{
 	transform: scale(1.05);
@@ -581,7 +585,10 @@ hr{
 		margin-top: 0px;
 	}
 	#about_text{
-		font-size: 20px;
+		font-size: 18px;
+	}
+	#top-about{
+		font-size: 24px;
 	}
 	.skill-icon{
 		width: 40px;
@@ -609,5 +616,11 @@ hr{
 	}
 	.project-background{
 		height: 100%;
+	}
+	.proj-tech{
+		font-size: 24px;
+	}
+	.project-description{
+		text-align: center;
 	}
 }
