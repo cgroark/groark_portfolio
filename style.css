@@ -530,7 +530,7 @@ footer {
    	height:50px;  
 	position:absolute;
 	text-transform: uppercase;
-	padding: 4px 16px;
+	padding: 4px 10px;
 	margin-bottom: 5px;
 	background-color: rgb(35, 40, 34);
 	font-size: 14px;
@@ -616,9 +616,14 @@ hr{
 	li{
 		font-size: 24px;
 	}
+	p.copyright,p.message{
+		font-size: 14px;
+
+	}
 	p{
 		font-size: 24px;
 	}
+	
 	.project-image-link{
 		margin-bottom: 0px;
 	}
