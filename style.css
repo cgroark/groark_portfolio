@@ -1,5 +1,6 @@
 .nav-wrapper{
 	background-color: rgb(30,30,30);
+	height: 200px;
 }
 .nav-header{
 	color: rgb(230,230,230);
@@ -11,11 +12,14 @@
 	color: #6AA9AD;
 
 }
+a.button-collapse i{
+	font-size: 50px !important;
+}
 .side-nav{
 	height: 300px !important;
 }
 .ham-menu{
-	font-size: 24px !important;
+	font-size: 28px !important;
 }
 #icon-cg{
 	font-size: 24px;
@@ -168,8 +172,8 @@ font-family: 'Montserrat', sans-serif;
 
 .skills-header-each{
 	color: rgb(30,30,30);
-	font-family: 'Cuprum', sans-serif;
-	font-size: 38px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 34px;
 	margin: 13px 0 0 0;
 	text-align: left;
 }
@@ -527,6 +531,7 @@ footer {
 	position:absolute;
 	text-transform: uppercase;
 	padding: 4px 16px;
+	margin-bottom: 5px;
 	background-color: rgb(35, 40, 34);
 	font-size: 14px;
 	letter-spacing: .09em;
@@ -577,6 +582,9 @@ hr{
     height: 630px !important;
 }
 @media (max-width: 992px){
+	#icon-cg{
+		font-size: 36px;
+	}
 	#main-header{
 		font-size: 80px;
 	}
@@ -585,10 +593,10 @@ hr{
 		margin-top: 0px;
 	}
 	#about_text{
-		font-size: 18px;
+		font-size: 24px;
 	}
 	#top-about{
-		font-size: 24px;
+		font-size: 26px;
 	}
 	.skill-icon{
 		width: 40px;
@@ -606,19 +614,22 @@ hr{
 		font-size: 12px;
 	}
 	li{
-		font-size: 20px;
+		font-size: 24px;
 	}
 	p{
-		font-size: 20px;
+		font-size: 24px;
 	}
 	.project-image-link{
 		margin-bottom: 0px;
+	}
+	.project-overview{
+		font-size: 24px;
 	}
 	.project-background{
 		height: 100%;
 	}
 	.proj-tech{
-		font-size: 24px;
+		font-size: 26px;
 	}
 	.project-description{
 		text-align: center;
