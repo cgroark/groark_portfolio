@@ -80,14 +80,16 @@ font-family: 'Montserrat', sans-serif;
   to{opacity: .0;}
 }
 .git-img{
-	margin: 172px 0;
-	height: 84px;
-	width: 84px;
-	background-image: url("images/githubwhite.png");
+	margin: 180px 0;
+	height: 71px;
+	width: 71px;
+	background-image: url("images/githubwhite1.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 .git-img:hover{
+	height: 78px;
+	width: 78px;
 	background-image: url("images/github.png");
 }
 .link-img{
@@ -267,12 +269,12 @@ span{
 
 .link-name{
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: -10px;
 }
 
 .project-link-img{
-	background: url("images/githubwhite.png");
+	background: url("images/githubwhite1.png");
 	background-size: 100%;
   	width: 76px;
   	height: 76px;
@@ -448,24 +450,20 @@ span{
 	text-align: center;
 }
 .git-img-contact{
-	margin: 20px auto;
-	margin-right;
-	height: 190px;
-	width: 190px;
-	background-image: url("images/githubwhite.png");
-	background-size: 75%;
+	margin: 35px auto;
+	height: 112px;
+	background-image: url("images/githubwhite1.png");
+	background-size: 60%;
 	background-repeat: no-repeat;
 }
 .git-img-contact:hover{
 	background-image: url("images/github.png");
 }
-.hr{
 
-}
+
 .link-img-contact{
 	margin: 35px auto;
-	height: 190px;
-	width: 190px;
+	height: 112px;
 	background-image: url("images/linkedinwhite.png");
 	background-size: 60%;
 	background-repeat: no-repeat;
@@ -475,8 +473,7 @@ span{
 }
 .email-img-contact{
 	margin: 35px auto;
-	height: 180px;
-	width: 180px;
+	height: 112px;
 	background-image: url("images/emailw.png");
 	background-size: 60%;
 	background-repeat: no-repeat;
@@ -611,7 +608,7 @@ hr{
 		font-size: 22px;
 	}
 	.skill-name{
-		font-size: 12px;
+		font-size: 16px;
 	}
 	li{
 		font-size: 24px;
