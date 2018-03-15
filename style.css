@@ -49,7 +49,6 @@ font-family: 'Montserrat', sans-serif;
   	overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
 	width: 30em;
-  	animation: type 4s steps(60, end); 
 }
 .section-experience{
 	margin: 0 10% 10% 10%;
@@ -80,12 +79,8 @@ font-family: 'Montserrat', sans-serif;
 	font-family: 'Prosto One', cursive;
   	animation: blink 1s infinite;
 }
-@keyframes type{ 
-  from { width: 0; } 
-} 
-@keyframes blink{
-  to{opacity: .0;}
-}
+
+
 .git-img{
 	margin: 180px 0;
 	height: 71px;
@@ -111,6 +106,7 @@ font-family: 'Montserrat', sans-serif;
 	background-image: url("images/linkedin.png");
 }
 .arrow-img{
+	animation-delay: 2s;
 	margin: 180px 0;
 	height: 71px;
 	width: 71px;

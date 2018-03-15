@@ -1,4 +1,6 @@
  $(document).ready(function(){
+      $(".secondary-header").addClass("animated bounceInDown")
+      $(".arrow-img").addClass("animated pulse infinite")
       $(".parallax").parallax();
       $(".button-collapse").sideNav();
       $(".dropdown-button").dropdown();
