@@ -67,6 +67,13 @@ font-family: 'Montserrat', sans-serif;
 	background-size: cover;
 	padding: 5% 0;
 }
+#bio-line{
+	background-color:#6AA9AD;
+	width: 15%;
+	height: 3px;
+	border: none;
+	margin: 8px 0 8px 0;
+}
 .header-cursor{
 	color: rgb(50,50,50);
 	font-size: 38px;
@@ -372,7 +379,13 @@ span{
 }
 .project-overview{
 	font-size: 18px;
-	font-weight: 800;
+	font-weight: 700;
+	margin-bottom: -12px;
+	color: rgb(50,50,50);
+}
+.project-detail{
+	font-size: 16px;
+	font-weight: 700;
 	margin-bottom: -12px;
 	color: rgb(50,50,50)
 }
@@ -590,10 +603,10 @@ hr{
 		margin-top: 0px;
 	}
 	#about_text{
-		font-size: 24px;
+		font-size: 22px;
 	}
 	#top-about{
-		font-size: 26px;
+		font-size: 28px;
 	}
 	.skill-icon{
 		width: 40px;
