@@ -2,15 +2,21 @@
 	background-color: rgb(30,30,30);
 	height: 200px;
 }
+.about-nav.color-shift,.work-nav.color-shift,.expe-nav.color-shift,.con-nav.color-shift{
+	text-decoration: underline;
+	transform: scale(1.1);
+	color: #6AA9AD
+}
+
 .nav-header{
 	color: rgb(230,230,230);
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	margin-right: 10px;
 }
+
 .nav-header:hover{
 	color: #6AA9AD;
-
 }
 a.button-collapse i{
 	font-size: 50px !important;
@@ -21,12 +27,13 @@ a.button-collapse i{
 .ham-menu{
 	font-size: 28px !important;
 }
-#icon-cg{
+.icon-cg{
 	font-size: 24px;
 	color: rgb(230,230,230);
 	margin-left: 24px;
 	font-family: 'Montserrat', sans-serif;
 }
+
 #icon-cg:hover{
 color: #6AA9AD;
 }
@@ -513,7 +520,7 @@ span{
 }
 .contact-div{
 	background-color: white;
-	height: 510px;
+	height: 540px;
 }
 .contact{
 	font-size: 30px;
