@@ -1,7 +1,6 @@
  $(document).ready(function(){
       $(".secondary-header").addClass("animated bounceInDown")
       $(".arrow-img").addClass("animated pulse infinite")
-      $(".img1").addClass("animated fadeInUp")
       $(".parallax").parallax();
       $(".button-collapse").sideNav();
       $(".dropdown-button").dropdown();
@@ -29,12 +28,14 @@ $(window).on('scroll',function(){
     }else if(stop > contact){
         $('.expe-nav').removeClass('color-shift');
         $('.con-nav').addClass('color-shift');
+        $('.link-img-contact').addClass("animated bounceInDown")
+        $('.git-img-contact').addClass("animated bounceInDown")
+        $('.email-img-contact').addClass("animated bounceInDown")
     }else{
         $('.about-nav').removeClass('color-shift');
         $('.work-nav').removeClass('color-shift');
         $('.expe-nav').removeClass('color-shift');
         $('.con-nav').removeClass('color-shift');
-        
     }
 
 });
