@@ -62,7 +62,7 @@ color: #6AA9AD;
 
 .experience-image{
 	height: 100%;
-	background-image: url("images/back6.jpg");
+	background-image: url("images/back62.jpg");
 	background-size: cover;
 	padding: 5% 0;
 }
@@ -88,12 +88,13 @@ color: #6AA9AD;
 	background-image: url("images/gitwhite2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	transition-duration: .5s;
 }
 .git-img:hover{
-	height: 78px;
-	width: 78px;
-	background-image: url("images/github.png");
+	transition-duration: .5s;
+	transform: scale(1.09);
 }
+
 .link-img{
 	margin: 180px 0;
 	height: 71px;
@@ -101,12 +102,13 @@ color: #6AA9AD;
 	background-image: url("images/linkedinwhite2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	transition-duration: .5s;
 }
 .link-img:hover{
-	background-image: url("images/linkedin.png");
+	transition-duration: .5s;
+	transform: scale(1.09);
 }
 .arrow-img{
-	animation-delay: 2s;
 	margin: 180px 0;
 	height: 71px;
 	width: 71px;
@@ -114,9 +116,7 @@ color: #6AA9AD;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-.arrow-img:hover{
-	background-image: url("images/arrowblack.png");
-}
+
 .img-up{
 	margin-top: 8px;
 	height: 44px;
@@ -282,10 +282,12 @@ span{
   	width: 76px;
   	height: 76px;
   	margin: -20px auto;
+  	transition-duration: .5s;
 }
 
 .project-link-img:hover{
-	background-image: url("images/github.png");
+	transition-duration: .5s;
+	transform: scale(1.09);
 }
 .live-link-img{
 	background: url("images/livesite.png");
@@ -293,10 +295,11 @@ span{
   	width: 76px;
   	height: 76px;
   	margin: -20px auto;
+  	transition-duration: .5s;
 }
-
 .live-link-img:hover{
-	background-image: url("images/livesite-2.png");
+	transform: scale(1.09);
+	transition-duration: .5s;
 }
 
 .project-icon{
@@ -398,8 +401,10 @@ span{
 }
 .img-get{
 	margin-top: 20px;
+	transition-duration: .5s;
 }
 .img-get:hover{
+	transition-duration: .5s;
 	transform: scale(1.05);
 }
 
@@ -464,21 +469,23 @@ span{
 	background-image: url("images/githubwhite1.png");
 	background-size: 60%;
 	background-repeat: no-repeat;
+	transition-duration: .5s;
 }
 .git-img-contact:hover{
-	background-image: url("images/github.png");
+	transition-duration: .5s;
+	transform: scale(1.11);
 }
-
-
 .link-img-contact{
 	margin: 35px auto;
 	height: 112px;
 	background-image: url("images/linkedinwhite.png");
 	background-size: 60%;
 	background-repeat: no-repeat;
+	transition-duration: .5s;
 }
 .link-img-contact:hover{
-	background-image: url("images/linkedin.png");
+	transition-duration: .5s;
+	transform: scale(1.11);
 }
 .email-img-contact{
 	margin: 35px auto;
@@ -486,9 +493,11 @@ span{
 	background-image: url("images/emailw.png");
 	background-size: 60%;
 	background-repeat: no-repeat;
+	transition-duration: .5s;
 }
 .email-img-contact:hover{
-	background-image: url("images/emailb.png");
+	transition-duration: .5s;
+	transform: scale(1.11);
 }
 .contact-div{
 	background-color: white;
@@ -629,18 +638,24 @@ hr{
 	p{
 		font-size: 24px;
 	}
+	span{
+		font-size: 24px;
+	}
 	
 	.project-image-link{
 		margin-bottom: 0px;
 	}
 	.project-overview{
-		font-size: 24px;
+		font-size: 28px;
 	}
 	.project-background{
 		height: 100%;
 	}
 	.proj-tech{
 		font-size: 26px;
+	}
+	.project-detail{
+		font-size: 28px;
 	}
 	.project-description{
 		text-align: center;
