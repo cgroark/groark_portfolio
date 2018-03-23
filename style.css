@@ -2,7 +2,9 @@
 	background-color: rgb(30,30,30);
 	height: 200px;
 }
-
+.work-nav{
+	color: red;
+}
 .about-nav.color-shift,.work-nav.color-shift,.expe-nav.color-shift,.con-nav.color-shift{
 	transform: scale(1.2);
 	color: #6AA9AD
@@ -13,7 +15,6 @@
 	font-size: 18px;
 	margin-right: 10px;
 }
-
 .nav-header:hover{
 	color: #6AA9AD;
 }
@@ -86,7 +87,6 @@ color: #6AA9AD;
   	animation: blink 1s infinite;
 }
 
-
 .git-img{
 	margin: 180px 0;
 	height: 71px;
@@ -94,10 +94,11 @@ color: #6AA9AD;
 	background-image: url("images/gitwhite2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	transition-duration: .5s;
+	transition-duration: .2s;
 }
 .git-img:hover{
-	transition-duration: .5s;
+	transition-duration: .2s;
+	filter: blur(2px);
 	transform: scale(1.09);
 }
 
@@ -108,11 +109,12 @@ color: #6AA9AD;
 	background-image: url("images/linkedinwhite2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	transition-duration: .5s;
+	transition-duration: .2s;
 }
 .link-img:hover{
-	transition-duration: .5s;
 	transform: scale(1.09);
+	transition-duration: .2s;
+	filter: blur(2px);
 }
 .arrow-img{
 	margin: 180px 0;
@@ -122,7 +124,10 @@ color: #6AA9AD;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-
+.arrow-img:hover{
+	transition-duration: .2s;
+	filter: blur(2px);
+}
 .img-up{
 	margin-top: 8px;
 	height: 44px;
@@ -288,12 +293,13 @@ span{
   	width: 76px;
   	height: 76px;
   	margin: -20px auto;
-  	transition-duration: .5s;
+  	transition-duration: .2s;
 }
 
 .project-link-img:hover{
-	transition-duration: .5s;
-	transform: scale(1.09);
+	transform: scale(1.05);
+	transition-duration: .2s;
+	filter: blur(2px);
 }
 .live-link-img{
 	background: url("images/livesite.png");
@@ -301,11 +307,12 @@ span{
   	width: 76px;
   	height: 76px;
   	margin: -20px auto;
-  	transition-duration: .5s;
+  	transition-duration: .2s;
 }
 .live-link-img:hover{
-	transform: scale(1.09);
-	transition-duration: .5s;
+	transform: scale(1.05);
+	transition-duration: .2s;
+	filter: blur(2px);
 }
 
 .project-icon{
@@ -407,11 +414,13 @@ span{
 }
 .img-get{
 	margin-top: 20px;
-	transition-duration: .5s;
+	transition-duration: .2s;
+
 }
 .img-get:hover{
-	transition-duration: .5s;
 	transform: scale(1.05);
+	transition-duration: .2s;
+	filter: blur(2px);
 }
 
 .down-button{
@@ -462,10 +471,12 @@ span{
 	margin-left: 24%;
     height: 25vh;
     margin-top: 4%;
+    transition-duration: .2s
 }
 .img-resume:hover{
 	transform: scale(1.11);
-	transition-duration: .5s
+	transition-duration: .2s;
+	filter: blur(2px);
 }
 .section-header-contact{
 	color: rgb(30,30,30);

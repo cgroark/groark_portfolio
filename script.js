@@ -3,7 +3,8 @@
       $(".arrow-img").addClass("animated pulse infinite")
       $(".parallax").parallax();
       $(".button-collapse").sideNav();
-      $(".dropdown-button").dropdown();
+      $(".dropdown-trigger").dropdown({ 
+        hover: true });
     });
 
 var parallaxbottom = $('.parallax-container').offset().top + $('.parallax-container').height() - 40;
@@ -31,6 +32,7 @@ $(window).on('scroll',function(){
         $('.link-img-contact').addClass("animated bounceInDown")
         $('.git-img-contact').addClass("animated bounceInDown")
         $('.email-img-contact').addClass("animated bounceInDown")
+
     }else{
         $('.about-nav').removeClass('color-shift');
         $('.work-nav').removeClass('color-shift');
