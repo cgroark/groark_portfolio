@@ -416,7 +416,13 @@ span{
 	transform: scale(1.05);
 	transition-duration: .2s;
 }
-
+/*.react-img{
+	width: 100%;
+}*/
+.react-header{
+	font-size: 27px;
+	font-family: 'Montserrat', sans-serif;
+}
 .down-button{
 	margin-top: 180px;
 	height: 71px;
