@@ -98,7 +98,6 @@ color: #6AA9AD;
 }
 .git-img:hover{
 	transition-duration: .2s;
-	filter: blur(2px);
 	transform: scale(1.09);
 }
 
@@ -114,7 +113,6 @@ color: #6AA9AD;
 .link-img:hover{
 	transform: scale(1.09);
 	transition-duration: .2s;
-	filter: blur(2px);
 }
 .arrow-img{
 	margin: 180px 0;
@@ -126,7 +124,6 @@ color: #6AA9AD;
 }
 .arrow-img:hover{
 	transition-duration: .2s;
-	filter: blur(2px);
 }
 .img-up{
 	margin-top: 8px;
@@ -299,7 +296,6 @@ span{
 .project-link-img:hover{
 	transform: scale(1.05);
 	transition-duration: .2s;
-	filter: blur(2px);
 }
 .live-link-img{
 	background: url("images/livesite.png");
@@ -312,7 +308,6 @@ span{
 .live-link-img:hover{
 	transform: scale(1.05);
 	transition-duration: .2s;
-	filter: blur(2px);
 }
 
 .project-icon{
@@ -420,7 +415,6 @@ span{
 .img-get:hover{
 	transform: scale(1.05);
 	transition-duration: .2s;
-	filter: blur(2px);
 }
 
 .down-button{
@@ -476,7 +470,6 @@ span{
 .img-resume:hover{
 	transform: scale(1.11);
 	transition-duration: .2s;
-	filter: blur(2px);
 }
 .section-header-contact{
 	color: rgb(30,30,30);
@@ -616,6 +609,9 @@ footer {
 .name {
 	color: #6AA9AD;
 	font-weight: 1000;
+}
+.name:hover {
+	color: white;
 }
 
 .resume{
