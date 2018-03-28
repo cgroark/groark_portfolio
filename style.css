@@ -73,7 +73,7 @@ color: #6AA9AD;
 	background-size: cover;
 	padding: 5% 0;
 }
-#bio-line{
+.bio-line{
 	background-color:#6AA9AD;
 	width: 15%;
 	height: 3px;
@@ -152,6 +152,21 @@ color: #6AA9AD;
 	text-align: center;
 	margin: 20px 0 -50px;
 }
+.project-line{
+	background-color: #6AA9AD;
+    width: 40%;
+    height: 3px;
+    border: none;
+    margin: 12px 30% 8px 30%;
+}
+.icon-line{
+	background-color: #6AA9AD;
+    width: 90%;
+    height: 3px;
+    border: none;
+    display: none;
+    margin: 12px 5% 8px 5%;
+}
 .header_black{
 	color: rgb(30,30,30);
 	font-family: 'Montserrat', sans-serif;
@@ -198,7 +213,6 @@ color: #6AA9AD;
 .skills-front{
 	margin-top: 30px;
 
-
 }
 
 .skill-name{
@@ -234,9 +248,6 @@ color: #6AA9AD;
 	
 	.skill-icon{
 		width: 40px;
-	}
-	#django{
-		width: 55px;
 	}
 	#html1{
 		width: 44px;
@@ -344,7 +355,7 @@ span{
 	height: 50px;
 	margin-top: -40px;
 }
-#get-out{
+#react,#node{
 	height: 45px;
 }
 .project-image-waste{
@@ -410,15 +421,12 @@ span{
 .img-get{
 	margin-top: 20px;
 	transition-duration: .2s;
-
 }
-.img-get:hover{
+.img-get:hover {
 	transform: scale(1.05);
 	transition-duration: .2s;
 }
-/*.react-img{
-	width: 100%;
-}*/
+
 .react-header{
 	font-size: 27px;
 	font-family: 'Montserrat', sans-serif;
@@ -535,7 +543,7 @@ span{
 }
 .contact-div{
 	background-color: white;
-	height: 540px;
+	height: 570px;
 }
 .contact{
 	font-size: 30px;
@@ -654,9 +662,6 @@ hr{
 	.skill-icon{
 		width: 40px;
 	}
-	#django{
-		width: 55px;
-	}
 	#html1{
 		width: 44px;
 	}
@@ -679,7 +684,14 @@ hr{
 	span{
 		font-size: 24px;
 	}
-	
+	.react-header{
+		font-size: 42px;
+    	margin-top: 30px;
+	}
+	.icon-line{
+		display: block;
+
+	}
 	.project-image-link{
 		margin-bottom: 0px;
 	}
@@ -700,6 +712,6 @@ hr{
 	}
 	.img-resume{
 		margin-left: 42%;
-    	height: 5vh;
+    	height: 12vh;
 	}
 }
