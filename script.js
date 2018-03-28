@@ -18,8 +18,10 @@ $(window).on('scroll',function(){
     if (stop > parallaxbottom && stop < sectionprojects) {
         $('.about-nav').addClass('color-shift');
         $('.work-nav').removeClass('color-shift');
+        $('.skills-front').addClass("animated slideInLeft")
+        $('.skills-back').addClass("animated slideInRight")
     } else if(stop > sectionprojects && stop < sectionexp){
-        $('.about-nav').removeClass('color-shift');
+        $(".secondary-header").removeClass("animated bounceInDown")
         $('.work-nav').addClass('color-shift');
         $('.expe-nav').removeClass('color-shift');
     } else if(stop > sectionexp && stop < contact){
@@ -34,6 +36,7 @@ $(window).on('scroll',function(){
         $('.email-img-contact').addClass("animated bounceInDown")
 
     }else{
+        $('.about-nav').removeClass('color-shift');
         $('.about-nav').removeClass('color-shift');
         $('.work-nav').removeClass('color-shift');
         $('.expe-nav').removeClass('color-shift');
