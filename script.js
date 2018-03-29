@@ -18,8 +18,6 @@ $(window).on('scroll',function(){
     if (stop > parallaxbottom && stop < sectionprojects) {
         $('.about-nav').addClass('color-shift');
         $('.work-nav').removeClass('color-shift');
-        $('.skills-front').addClass("animated slideInLeft")
-        $('.skills-back').addClass("animated slideInRight")
     } else if(stop > sectionprojects && stop < sectionexp){
         $(".secondary-header").removeClass("animated bounceInDown")
         $('.work-nav').addClass('color-shift');
