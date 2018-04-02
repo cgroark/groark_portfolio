@@ -20,6 +20,7 @@ $(window).on('scroll',function(){
         $('.work-nav').removeClass('color-shift');
     } else if(stop > sectionprojects && stop < sectionexp){
         $(".secondary-header").removeClass("animated bounceInDown")
+        $('.about-nav').removeClass('color-shift');
         $('.work-nav').addClass('color-shift');
         $('.expe-nav').removeClass('color-shift');
     } else if(stop > sectionexp && stop < contact){
