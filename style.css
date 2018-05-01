@@ -8,6 +8,10 @@
 	--transition: .2s;
 }
 
+.img1{
+	background-image: url(images/back62-min.jpg);
+}
+
 p{
 	font-family: var(--font-2);
 	color: var(--color-black);
