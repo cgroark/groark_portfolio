@@ -30,10 +30,6 @@ $(window).on('scroll',function(){
     }else if(stop > contact){
         $('.expe-nav').removeClass('color-shift');
         $('.con-nav').addClass('color-shift');
-        $('.link-img-contact').addClass("animated bounceInDown")
-        $('.git-img-contact').addClass("animated bounceInDown")
-        $('.email-img-contact').addClass("animated bounceInDown")
-
     }else{
         $('.about-nav').removeClass('color-shift');
         $('.about-nav').removeClass('color-shift');
